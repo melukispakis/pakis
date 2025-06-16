@@ -5,7 +5,7 @@ export default function KlasterPage() {
   return (
     <>
       <Head>
-        <title>KKN-PPM UGM Pakis 2024</title>
+        <title>KKN-PPM UGM Pakis 2025</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <main>

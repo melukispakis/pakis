@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>KKN-PPN UGM Pakis 2024</title>
+        <title>KKN-PPN UGM Pakis 2025</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <main>

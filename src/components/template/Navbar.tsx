@@ -38,8 +38,8 @@ export function Navbar() {
                 src="/logo-pakis.png"
                 width={50}
                 height={40}
-                alt=""
-                className="relative items-center"
+                alt="Logo KKN UGM Melukis Pakis 2025"
+                className="relative items-center me-2"
               />
             </Link>
             <P className="gap-x-[9px] text-start font-jakarta text-[18px] font-bold">

@@ -43,7 +43,7 @@ export function Homepage() {
     <>
       <MainHero
         image="/foto-pakis-expand.png"
-        title={<>TIM KKN MELUKIS PAKIS 2024</>}
+        title={<>TIM KKN MELUKIS PAKIS 2025</>}
         description="Kecamatan Pakis terletak di Kabupaten Magelang, Jawa Tengah, Indonesia. Kecamatan ini dikenal dengan keindahan alamnya, yang mencakup area pegunungan dan lahan pertanian yang subur. Pakis memiliki berbagai potensi wisata alam dan budaya, termasuk situs bersejarah dan pemandangan alam yang menarik. Sebagai salah satu daerah pedesaan, Pakis juga berfokus pada pertanian, dengan tanaman utama seperti padi dan sayuran. Kecamatan ini berperan penting dalam mendukung ekonomi lokal melalui kegiatan pertanian dan pariwisata. Pakis merupakan bagian dari Magelang yang kaya akan budaya dan tradisi lokal."
       />
 
@@ -153,7 +153,7 @@ export function Homepage() {
                 Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.
               </P>
               <P className="font-jakarta text-[24px] leading-[38.4px] text-white lg:text-[30px] lg:leading-[42px]">
-                Dosen Pembimbing Lapangan Tim Melukis Pakis 2024
+                Dosen Pembimbing Lapangan Tim Melukis Pakis 2025
               </P>
             </div>
           </div>
