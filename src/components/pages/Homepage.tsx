@@ -42,7 +42,7 @@ export function Homepage() {
   return (
     <>
       <MainHero
-        image="/foto-pakis-expand.png"
+        image="/foto-pakis.jpg"
         title={<>TIM KKN MELUKIS PAKIS 2025</>}
         description="Kecamatan Pakis terletak di Kabupaten Magelang, Jawa Tengah, Indonesia. Kecamatan ini dikenal dengan keindahan alamnya, yang mencakup area pegunungan dan lahan pertanian yang subur. Pakis memiliki berbagai potensi wisata alam dan budaya, termasuk situs bersejarah dan pemandangan alam yang menarik. Sebagai salah satu daerah pedesaan, Pakis juga berfokus pada pertanian, dengan tanaman utama seperti padi dan sayuran. Kecamatan ini berperan penting dalam mendukung ekonomi lokal melalui kegiatan pertanian dan pariwisata. Pakis merupakan bagian dari Magelang yang kaya akan budaya dan tradisi lokal."
       />
@@ -137,7 +137,7 @@ export function Homepage() {
               data-aos-delay="500"
             >
               <Image
-                src="/pak-dimas.png"
+                src="/bu-budi.png"
                 width={1000}
                 height={1000}
                 alt="Pak Dimas"
@@ -150,7 +150,7 @@ export function Homepage() {
               data-aos-delay="500"
             >
               <P className="font-jakarta text-[36px] font-bold leading-[50px] text-white lg:font-[52px] lg:leading-[67.6px]">
-                Dimas Hand Vidya Paradhipta, S.Pt., M.Sc., Ph.D.
+                Budi Rodestawati, S.Kp.G, MPH
               </P>
               <P className="font-jakarta text-[24px] leading-[38.4px] text-white lg:text-[30px] lg:leading-[42px]">
                 Dosen Pembimbing Lapangan Tim Melukis Pakis 2025
@@ -161,13 +161,13 @@ export function Homepage() {
       </Container>
 
       {/* Meet Our Developer */}
-      <Container className="my-[50px] font-jakarta">
+      {/* <Container className="my-[50px] font-jakarta">
         <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
           Meet Our Developer
         </H1>
         <H3 className="pt-[24px]">
-          Arahkan kursor atau klik kartu di bawah ini untuk melihat
-          profil linkedin dan github
+          Arahkan kursor atau klik kartu di bawah ini untuk melihat profil
+          linkedin dan github
         </H3>
         <div className="my-12 flex flex-row flex-wrap items-center justify-center gap-[24px]">
           {dataDeveloper.map(({ name, image, position, github, linkedin }) => {
@@ -260,7 +260,7 @@ export function Homepage() {
             );
           })}
         </div>
-      </Container>
+      </Container> */}
     </>
   );
 }
