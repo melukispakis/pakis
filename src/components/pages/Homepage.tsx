@@ -5,7 +5,7 @@ import {
   H5,
   P,
   dataBeranda,
-  dataDeveloper,
+  // dataDeveloper,
   Counter,
   H3,
 } from "@/components";
@@ -23,7 +23,7 @@ export function Homepage() {
       setLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // Cle
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -43,8 +43,25 @@ export function Homepage() {
     <>
       <MainHero
         image="/foto-pakis1.jpg"
-        title={<>TIM KKN MELUKIS PAKIS 2025</>}
-        description="Kecamatan Pakis terletak di Kabupaten Magelang, Jawa Tengah, Indonesia. Kecamatan ini dikenal dengan keindahan alamnya, yang mencakup area pegunungan dan lahan pertanian yang subur. Pakis memiliki berbagai potensi wisata alam dan budaya, termasuk situs bersejarah dan pemandangan alam yang menarik. Sebagai salah satu daerah pedesaan, Pakis juga berfokus pada pertanian, dengan tanaman utama seperti padi dan sayuran. Kecamatan ini berperan penting dalam mendukung ekonomi lokal melalui kegiatan pertanian dan pariwisata. Pakis merupakan bagian dari Magelang yang kaya akan budaya dan tradisi lokal."
+        title={
+          <h1 className="text-center text-[24px] font-bold leading-[32px] sm:text-[28px] sm:leading-[36px] md:text-[32px] md:leading-[44.8px] lg:text-[36px] lg:leading-[48px]">
+            Tim KKN Melukis Pakis 2025
+          </h1>
+        }
+        description={
+          <p className="text-justify text-base leading-relaxed md:text-left lg:text-center">
+            Kecamatan Pakis terletak di Kabupaten Magelang, Jawa Tengah,
+            Indonesia. Kecamatan ini dikenal dengan keindahan alamnya, yang
+            mencakup area pegunungan dan lahan pertanian yang subur. Pakis
+            memiliki berbagai potensi wisata alam dan budaya, termasuk situs
+            bersejarah dan pemandangan alam yang menarik. Sebagai salah satu
+            daerah pedesaan, Pakis juga berfokus pada pertanian, dengan tanaman
+            utama seperti padi dan sayuran. Kecamatan ini berperan penting dalam
+            mendukung ekonomi lokal melalui kegiatan pertanian dan pariwisata.
+            Pakis merupakan bagian dari Magelang yang kaya akan budaya dan
+            tradisi lokal.
+          </p>
+        }
       />
 
       {/* Tentang Pakis */}
@@ -53,6 +70,9 @@ export function Homepage() {
           className="relative my-[50px] h-full rounded-[54px]"
           data-aos="zoom-in"
         >
+          <h1 className="text-center text-[24px] font-bold leading-[32px] sm:text-[28px] sm:leading-[36px] md:text-[32px] md:leading-[44.8px] lg:text-[36px] lg:leading-[48px]">
+            Demografi Kecamatan Pakis
+          </h1>
           <div className="relative mx-[100px] flex flex-col items-center justify-between gap-x-[24px] gap-y-[40px] py-[65px] lg:flex-row">
             <div className="noselect container h-full min-w-[250px]">
               <div className="canvas">
@@ -94,7 +114,6 @@ export function Homepage() {
                 </div>
               </div>
             </div>
-
             <div className="cardsInfo flex flex-col items-center gap-y-[36px]">
               {dataBeranda.map(({ text, image, end }, i) => {
                 return (

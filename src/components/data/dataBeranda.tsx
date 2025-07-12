@@ -7,7 +7,7 @@ export const dataBeranda = [
   {
     image: "/mountain.png",
     text: "Ketinggian (MDPL)",
-    end: 841,
+    end: 1378,
   },
   {
     image: "/village.png",
