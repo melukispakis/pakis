@@ -19,9 +19,11 @@ const config: Config = {
     colors: {
       primary: "#FEEFC6",
       secondary: "#1B1D26",
+      footer:"#4A5C43",
       white: "#FFFFFF",
       grey: "#D9D9D9",
-      red: "#D04736",
+      // red: "#D04736",
+      cream: "#C2A15D",
     },
   },
   plugins: [],
