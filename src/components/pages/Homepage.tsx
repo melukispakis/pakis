@@ -42,7 +42,7 @@ export function Homepage() {
   return (
     <>
       <MainHero
-        image="/foto-pakis1.jpg"
+        image="/foto-pakis.png"
         title={
           <h1 className="text-center text-[24px] font-bold leading-[32px] sm:text-[28px] sm:leading-[36px] md:text-[32px] md:leading-[44.8px] lg:text-[36px] lg:leading-[48px]">
             Tim KKN Melukis Pakis 2025
@@ -119,7 +119,7 @@ export function Homepage() {
                 return (
                   <>
                     <div
-                      className="cardInfo flex w-full flex-row items-center gap-x-[9px] rounded-[16px] bg-red px-[20px] py-[33px] lg:px-[35px]"
+                      className="cardInfo bg-cream flex w-full flex-row items-center gap-x-[9px] rounded-[16px] px-[20px] py-[33px] lg:px-[35px]"
                       key={i}
                       data-aos="fade-left"
                     >
@@ -146,11 +146,11 @@ export function Homepage() {
       {/* Pak Dimas */}
       <Container>
         <div
-          className="cardDeveloper relative my-[50px] h-full overflow-hidden rounded-[54px] bg-red px-[100px]"
+          className="cardDeveloper bg-cream relative my-[50px] h-full overflow-hidden rounded-[54px] px-[100px]"
           data-aos="zoom-in"
         >
           <div className="cardDeveloper-info relative flex h-full flex-col items-center justify-between gap-[70px] py-[65px] lg:flex-row">
-            <div
+            {/* <div
               className="cardDeveloper-avatar relative h-full max-h-[350px] w-full min-w-[200px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px] border-[10px] border-white bg-gradient-to-tr from-[#F2594B] to-[#F2DEDC]"
               data-aos="fade-right"
               data-aos-delay="500"
@@ -159,21 +159,35 @@ export function Homepage() {
                 src="/bu-budi.png"
                 width={1000}
                 height={1000}
-                alt="Pak Dimas"
+                alt="Bu Budi"
                 className="relative lg:-bottom-0 lg:h-[390px] xl:bottom-0"
               />
+            </div> */}
+            <div
+              className="cardDeveloper-avatar relative h-full max-h-[350px] w-full min-w-[200px] max-w-[300px] overflow-hidden rounded-b-[25px] rounded-t-[195px]"
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
+              <Image
+                src="/bu-budi.png"
+                width={1000}
+                height={1000}
+                alt="Bu Budi"
+                className="h-full w-full object-cover object-top"
+              />
             </div>
+
             <div
               className="flex flex-col gap-y-[20px]"
               data-aos="fade-left"
               data-aos-delay="500"
             >
-              <P className="font-jakarta text-[36px] font-bold leading-[50px] text-white lg:font-[52px] lg:leading-[67.6px]">
+              <p className="font-jakarta text-[24px] font-bold leading-snug text-white sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[48px]">
                 Budi Rodestawati, S.Kp.G, MPH
-              </P>
-              <P className="font-jakarta text-[24px] leading-[38.4px] text-white lg:text-[30px] lg:leading-[42px]">
+              </p>
+              <p className="font-jakarta text-[16px] leading-normal text-white sm:text-[18px] md:text-[22px] lg:text-[24px] xl:text-[30px]">
                 Dosen Pembimbing Lapangan Tim Melukis Pakis 2025
-              </P>
+              </p>
             </div>
           </div>
         </div>
@@ -193,7 +207,7 @@ export function Homepage() {
             return (
               <>
                 <div
-                  className="cardDeveloper h-[525px] w-full max-w-[300px] overflow-hidden rounded-[24px] bg-red p-[24px] lg:max-h-[481px]"
+                  className="cardDeveloper h-[525px] w-full max-w-[300px] overflow-hidden rounded-[24px] bg-cream p-[24px] lg:max-h-[481px]"
                   data-aos="zoom-in"
                 >
                   <div className="cardDeveloper-info">
