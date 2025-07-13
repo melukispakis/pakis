@@ -1184,3 +1184,9 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+@layer utilities {
+  .bg-gradient-custom {
+    background: linear-gradient(223deg, #F2DEDC 9.88%, rgba(194, 161, 93, 0.90) 115.13%);
+  }
+}
