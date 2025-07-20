@@ -11,3 +11,4 @@ export * from "./dataMedika";
 export * from "./dataKlaster";
 export * from "./dataBeranda";
 export * from "./dataMahasiswa";
+export * from "./dataAllTeams";
