@@ -179,9 +179,32 @@ export function Homepage() {
 
       {/* Meet Our Teams */}
       <Container className="my-[50px] font-jakarta">
-        <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
-          Meet Our Teams
-        </H1>
+        <div className="flex items-center justify-between">
+          <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
+            Meet Our Teams
+          </H1>
+          <a
+            href="/all-teams"
+            className="text-blue-600 flex items-center gap-1 text-xl font-bold hover:underline"
+          >
+            See All Teams
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="23"
+              height="24"
+              viewBox="0 0 23 24"
+              fill="none"
+            >
+              <path
+                d="M7.90625 4.5L15.0937 12L7.90625 19.5"
+                stroke="black"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
 
         <div className="my-12 grid grid-cols-1 place-items-center gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
           {dataMahasiswa.map(({ name, image, fakultas }, index) => (
@@ -197,7 +220,7 @@ export function Homepage() {
                     src={image}
                     width={1000}
                     height={1000}
-                    alt="Foto Developer"
+                    alt="Foto Mahasiswa"
                     className="absolute inset-0 h-full w-full object-cover object-top"
                   />
                 </div>
