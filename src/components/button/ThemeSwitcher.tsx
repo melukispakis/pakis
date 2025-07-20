@@ -1,4 +1,4 @@
-// components/ThemeSwitcher.tsx
+
 import React from "react";
 import { useTheme } from "@/components/template/ThemeContext";
 
