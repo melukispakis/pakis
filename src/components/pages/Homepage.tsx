@@ -14,6 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { Loader } from "../template/Loader";
+import Link from "next/link";
 
 export function Homepage() {
   const [loading, setLoading] = useState(true);
@@ -188,7 +189,7 @@ export function Homepage() {
             Meet Our Teams
           </div>
 
-          <a
+          <Link
             href="/all-teams"
             className="text-blue-600 flex items-center text-xs font-bold hover:underline sm:text-lg md:text-xl"
           >
@@ -207,7 +208,7 @@ export function Homepage() {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </Link>
         </div>
 
         <div className="my-12 grid grid-cols-1 place-items-center gap-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
