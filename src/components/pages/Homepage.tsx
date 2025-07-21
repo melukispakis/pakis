@@ -148,9 +148,9 @@ export function Homepage() {
           className="cardDeveloper relative my-12 w-full overflow-hidden rounded-[36px] bg-cream px-6 py-10 sm:px-10 md:px-14 lg:px-[100px] lg:py-[65px]"
           data-aos="zoom-in"
         >
-          <div className="cardDeveloper-info relative flex flex-col items-center justify-between gap-10 lg:flex-row lg:items-start lg:gap-[70px]">
-            {/* Avatar */}
-            <div className="relative aspect-[3/4] w-full max-w-[260px] overflow-hidden rounded-b-[25px] rounded-t-[195px] sm:aspect-auto sm:max-w-[280px] md:max-w-[300px]">
+          <div className="cardDeveloper-info relative flex flex-col items-center justify-between gap-10 lg:flex-row lg:items-stretch lg:gap-[70px]">
+            {/* Gambar */}
+            <div className="relative aspect-[3/4] w-full max-w-[260px] overflow-hidden rounded-b-[25px] rounded-t-[195px] sm:max-w-[280px] md:max-w-[300px]">
               <Image
                 src="/bu-budi.png"
                 width={1000}
@@ -160,13 +160,13 @@ export function Homepage() {
               />
             </div>
 
-            {/* Info */}
+            {/* Info Teks */}
             <div
-              className="flex flex-col gap-4 text-center lg:mt-0 lg:text-left"
+              className="flex flex-col gap-4 self-center text-center lg:text-left"
               data-aos="fade-left"
               data-aos-delay="500"
             >
-              <p className="font-jakarta text-[20px] font-bold leading-snug text-white sm:text-[24px] md:text-[28px] lg:text-[36px] xl:text-[48px]">
+              <p className="font-jakarta text-[20px] font-bold leading-snug text-white sm:text-[24px] md:text-[28px] lg:text-[36px] xl:text-[40px]">
                 Budi Rodestawati, S.Kp.G, MPH
               </p>
               <p className="font-jakarta text-[16px] leading-relaxed text-white sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[30px]">
@@ -180,18 +180,22 @@ export function Homepage() {
       {/* Meet Our Teams */}
       <Container className="my-[50px] font-jakarta">
         <div className="flex items-center justify-between">
-          <H1 className="font-bold" data-aos="fade-left" data-aos-delay="500">
+          <div
+            className="text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
             Meet Our Teams
-          </H1>
+          </div>
+
           <a
             href="/all-teams"
-            className="text-blue-600 flex items-center gap-1 text-xl font-bold hover:underline"
+            className="text-blue-600 flex items-center text-xs font-bold hover:underline sm:text-lg md:text-xl"
           >
             See All Teams
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="23"
-              height="24"
+              className="h-5 w-5 md:h-6 md:w-6"
               viewBox="0 0 23 24"
               fill="none"
             >
