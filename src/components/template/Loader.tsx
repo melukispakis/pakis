@@ -1,23 +1,16 @@
 export function Loader() {
   return (
     <>
-      <div className="flex h-screen items-center">
-        <div className="mx-auto">
-          <div className="loader">
-            <svg viewBox="0 0 80 80">
-              <circle r="32" cy="40" cx="40" id="test"></circle>
-            </svg>
-          </div>
-          <div className="loader triangle">
-            <svg viewBox="0 0 86 80">
-              <polygon points="43 8 79 72 7 72"></polygon>
-            </svg>
-          </div>
-          <div className="loader">
-            <svg viewBox="0 0 80 80">
-              <rect height="64" width="64" y="8" x="8"></rect>
-            </svg>
-          </div>
+      <div className="flex h-screen items-center justify-center bg-primary">
+        <div className="flex animate-pulse flex-col items-center gap-6">
+          <img
+            src="/logo-pakis.png"
+            alt="Loading..."
+            className="animate-spin-slow h-52 w-52"
+          />
+          <p className="text-gray-700 animate-pulse text-center text-lg font-semibold">
+            Memuat Melukis Pakis...
+          </p>
         </div>
       </div>
     </>
