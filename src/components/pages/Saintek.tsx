@@ -53,7 +53,7 @@ export function Saintek() {
         description="Klaster Saintek pada KKN PPM UGM fokus pada penerapan ilmu sains dan teknologi untuk mengatasi masalah dan meningkatkan kualitas hidup masyarakat."
       />
       <div data-aos="fade-up">
-        <Container className="mt-[101px] font-jakarta">
+        <Container className="mt-[101px] font-jakarta text-center">
           <H1 className="font-bold">Let’s See Our Klaster Saintek!</H1>
           <H3 className="pt-[24px]">
             Berikut adalah program kerja unggulan yang telah dilaksanakan oleh

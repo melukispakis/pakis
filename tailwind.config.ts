@@ -25,6 +25,9 @@ const config: Config = {
       // red: "#D04736",
       cream: "#C2A15D",
     },
+    animation: {
+        'spin-slow': 'spin 4s linear infinite',
+      },
   },
   plugins: [],
 };

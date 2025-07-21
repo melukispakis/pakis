@@ -11,4 +11,8 @@ export const dataNavbar = [
     href: "/sub-unit",
     title: "Sub Unit",
   },
+  {
+    href: "/all-teams",
+    title: "All Teams",
+  },
 ];

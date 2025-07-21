@@ -12,7 +12,7 @@ export function Footer() {
   }, []);
   return (
     <>
-      <Container className="bg-footer rounded-t-[20px] border-t-2 border-primary font-jakarta text-white">
+      <Container className="rounded-t-[20px] border-t-2 border-primary bg-footer font-jakarta text-white">
         <div className="mb-[26.75px] mt-[70px] flex h-full w-full flex-col items-start justify-start gap-y-[32px] lg:flex-row lg:justify-between">
           <div
             className="flex flex-col items-start gap-y-[16px]"
@@ -103,7 +103,7 @@ export function Footer() {
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Pogalan 1
+                    Kragilan
                   </Text>
                 </a>
                 <a href="/sub-unit/gerdu">
@@ -111,7 +111,7 @@ export function Footer() {
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Pogalan 2
+                    Gerotan
                   </Text>
                 </a>
                 <a href="/sub-unit/semampiran">
@@ -119,17 +119,17 @@ export function Footer() {
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Ketundan 1
+                    Semimpen
                   </Text>
                 </a>
-                <a href="/sub-unit/semimpen">
+                {/* <a href="/sub-unit/semimpen">
                   <Text
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
                     Ketundan 2
                   </Text>
-                </a>
+                </a> */}
               </div>
             </div>
             <div

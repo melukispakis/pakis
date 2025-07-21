@@ -1,25 +1,20 @@
 import { H2 } from "@/components";
 
-// ini juga bisa dipakai untuk cluster
-
 export function SubunitKlasterCard(props: any) {
   const { image, title, description } = props;
   return (
     <>
       <div
-        className="card"
-        style={{
-          backgroundImage: `url(${image})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
+        className="relative overflow-hidden rounded-[24px] bg-cover bg-center text-white shadow-md transition-transform duration-300 hover:scale-[1.03]"
+        style={{ backgroundImage: `url(${image})` }}
       >
-        <H2 className="mx-auto block pb-[37px] pt-[200px] text-center font-alatsi text-white xs:pt-[491px]">
+        <div className="bg-black/40 absolute inset-0"></div>
+        <H2 className="relative z-10 pb-10 pt-[200px] text-center font-alatsi text-xl sm:text-2xl md:text-3xl lg:text-4xl">
           {title}
         </H2>
-        <div className="card__content font-jakarta">
-          <p className="card__title">{title}</p>
-          <p className="card__description">{description}</p>
+        <div className="relative z-10 px-6 pb-6 font-jakarta text-sm sm:text-base">
+          <p className="font-semibold">{title}</p>
+          <p className="text-white/90">{description}</p>
         </div>
       </div>
     </>

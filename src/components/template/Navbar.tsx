@@ -39,7 +39,7 @@ export function Navbar() {
                 width={50}
                 height={40}
                 alt="Logo KKN UGM Melukis Pakis 2025"
-                className="relative items-center me-2"
+                className="relative me-2 items-center"
               />
             </Link>
             <P className="gap-x-[9px] text-start font-jakarta text-[18px] font-bold">
@@ -59,7 +59,7 @@ export function Navbar() {
                 </>
               );
             })}
-            <ThemeSwitcher />
+            {/* <ThemeSwitcher /> */}
           </div>
           <div className="flex flex-row items-center gap-x-[10px] lg:hidden">
             <label className="burger lg:hidden" htmlFor="burger">
@@ -68,7 +68,7 @@ export function Navbar() {
               <span></span>
               <span></span>
             </label>
-            <ThemeSwitcher className="hidden sm:block" />
+            {/* <ThemeSwitcher className="hidden sm:block" /> */}
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export function Navbar() {
           );
         })}
         <div className="ml-[50px]">
-          <ThemeSwitcher className="block sm:hidden" />
+          {/* <ThemeSwitcher className="block sm:hidden" /> */}
         </div>
       </div>
     </>
