@@ -106,7 +106,7 @@ export function Footer() {
                     Gerotan
                   </Text>
                 </a>
-                <a href="/sub-unit/semampiran">
+                <a href="/sub-unit/semimpen">
                   <Text
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
@@ -114,7 +114,7 @@ export function Footer() {
                     Semimpen
                   </Text>
                 </a>
-                <a href="/sub-unit/pucung">
+                <a href="/sub-unit/kragilan">
                   <Text
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
