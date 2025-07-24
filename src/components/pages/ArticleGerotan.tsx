@@ -1,11 +1,11 @@
-import { ArrowBack, H1, Loader, dataArticlePucung } from "@/components";
+import { ArrowBack, H1, Loader, dataArticleGerotan } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
-export function ArticlePucung({ href }: any) {
-  const data = dataArticlePucung[href];
+export function ArticleGerotan({ href }: any) {
+  const data = dataArticleGerotan[href];
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export function ArticlePucung({ href }: any) {
       setLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // Cle
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {

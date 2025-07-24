@@ -8,13 +8,13 @@ type Article = {
   text: JSX.Element;
 };
 
-type DataArticlePucung = {
+type DataArticleGerotan = {
   [key: string]: Article;
 };
 
-export const dataArticlePucung: DataArticlePucung = {
+export const dataArticleGerotan: DataArticleGerotan = {
   "pesona-pucung": {
-    image: "/pucung/week-1-hero.jpeg",
+    image: "/gerotan/week-1-hero.jpeg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Pesona Pucung",
     text: (
@@ -99,7 +99,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "manajemen-keuangan": {
-    image: "/pucung/manajemen-keuangan.jpg",
+    image: "/gerotan/manajemen-keuangan.jpg",
     location: "SDN 3 Pogalan, Kelurahan Pogalan",
     title: "Manajemen Keuangan",
     text: (
@@ -171,7 +171,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "sosialisasi-poc": {
-    image: "/pucung/sosialisasi-poc.jpeg",
+    image: "/gerotan/sosialisasi-poc.jpeg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title:
       "Sosialisasi Pembuatan Pupuk Organik Cair: Menuju Pertanian Ramah Lingkungan",
@@ -221,7 +221,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "proker-inventarisasi": {
-    image: "/pucung/proker-inventarisasi.jpg",
+    image: "/gerotan/proker-inventarisasi.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Pembuatan Aplikasi Inventarisasi Aset Dusun",
     text: (
@@ -291,7 +291,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "sosialisasi-microgreen": {
-    image: "/pucung/sosialisasi-microgreen.jpeg",
+    image: "/gerotan/sosialisasi-microgreen.jpeg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Sosialisasi Microgreen",
     text: (
@@ -349,7 +349,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "sosialisasi-mpasi": {
-    image: "/pucung/sosialisasi-mpasi.jpg",
+    image: "/gerotan/sosialisasi-mpasi.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Sosialisasi Resep MPASI dan Herbal Cegah Stunting",
     text: (
@@ -409,7 +409,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   kebersihan: {
-    image: "/pucung/kebersihan.jpg",
+    image: "/gerotan/kebersihan.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title:
       "Sosialisasi dan Pelatihan Menjaga Kebersihan Lingkungan oleh Tim KKN PPM UGM 2024 di Masjid Dusun",
@@ -491,7 +491,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "retaining-wall": {
-    image: "/pucung/retaining-wall.jpg",
+    image: "/gerotan/retaining-wall.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Desain Retaining Wall untuk Longsor di Dusun Pucung ",
     text: (
@@ -566,7 +566,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "pembuatan-rab-retaining": {
-    image: "/pucung/pembuatan-rab-retaining.jpg",
+    image: "/gerotan/pembuatan-rab-retaining.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Pembuatan RAB Retaining Wall untuk Longsor",
     text: (
@@ -643,7 +643,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "pendampingan-hafalan": {
-    image: "/pucung/pendampingan-hafalan.jpg",
+    image: "/gerotan/pendampingan-hafalan.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Pengontrolan Bacaan dan Hafalan Al-Qur'an",
     text: (
@@ -719,7 +719,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "pendampingan-tpa": {
-    image: "/pucung/pendampingan-tpa.jpg",
+    image: "/gerotan/pendampingan-tpa.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title:
       "Program Kerja TPA Dusun Pucung Pendampingan Hafalan Quran Anak-anak TPA",
@@ -784,7 +784,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   posyandu: {
-    image: "/pucung/posyandu.jpg",
+    image: "/gerotan/posyandu.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Membantu Kegiatan Posyandu",
     text: (
@@ -861,7 +861,7 @@ export const dataArticlePucung: DataArticlePucung = {
     ),
   },
   "pencegahan-stunting": {
-    image: "/pucung/pencegahan-stunting.jpg",
+    image: "/gerotan/pencegahan-stunting.jpg",
     location: "Dusun Pucung, Kelurahan Pogalan",
     title: "Sosialisasi Cegah Stunting ",
     text: (

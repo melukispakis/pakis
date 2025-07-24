@@ -6,11 +6,11 @@ type Article = {
   text: JSX.Element;
 };
 
-type DataArticleSemampiran = {
+type DataArticleKragilan = {
   [key: string]: Article;
 };
 
-export const dataArticleSemampiran: DataArticleSemampiran = {
+export const dataArticleKragilan: DataArticleKragilan = {
   "pesona-semampiran": {
     image: "/hero.png",
     location: "Dusun Semampiran, Kelurahan Ketundan",
@@ -77,7 +77,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   kompos: {
-    image: "/semampiran/kompos.png",
+    image: "/kragilan/kompos.png",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title: "Pembuatan Kompos Dari Kotoran Ternak Sebagai Pupuk Perkebunan ",
     text: (
@@ -141,7 +141,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "perangkap-tikus": {
-    image: "/semampiran/perangkap-tikus.png",
+    image: "/kragilan/perangkap-tikus.png",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Pembuatan Perangkap Tikus dan Sosialisasi Penyakit Yang Disebabkan Rodensia",
@@ -211,7 +211,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "revitalisasi-pos": {
-    image: "/semampiran/revitalisasi-pos.jpg",
+    image: "/kragilan/revitalisasi-pos.jpg",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Revitalisasi Prasarana Pos Kampling Sebagai Penunjang Keamanan dan Lapangan Sebagai Ruang Publik Dusun Semampiran",
@@ -287,7 +287,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "tambah-darah": {
-    image: "/semampiran/tambah-darah.jpg",
+    image: "/kragilan/tambah-darah.jpg",
     location: "SMPN3 Pakis",
     title:
       "Sosialisasi Tablet Tambah Darah Sebagai Intervensi Anemia Pada Remaja Putri",
@@ -352,7 +352,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "penyakit-ternak": {
-    image: "/semampiran/penyakit-ternak.jpg",
+    image: "/kragilan/penyakit-ternak.jpg",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Sosialisasi Penyakit Ternak Hewan Ruminansia untuk Meningkatkan Pengetahuan Peternak Mikro",
@@ -426,7 +426,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "pmt-balita": {
-    image: "/semampiran/pmt-balita.jpg",
+    image: "/kragilan/pmt-balita.jpg",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Pembuatan PMT untuk Balita Sebagai Langkah Intervensi Stunting Pada Balita Berbahan Dasar Pangan Lokal ",
@@ -491,7 +491,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   materi: {
-    image: "/semampiran/materi.jpg",
+    image: "/kragilan/materi.jpg",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Pemberian Materi Pembelajaran Bahasa Inggris dalam Bentuk Kelas Gratis sebagai Bentuk Pengembangan Wawasan dalam Bidang Bahasa",
@@ -550,7 +550,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "sosialisasi-google": {
-    image: "/semampiran/sosialisasi-google.jpg",
+    image: "/kragilan/sosialisasi-google.jpg",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Sosialisasi Pemanfaatan Google Maps oleh Masyarakat Dusun Semampiran untuk Plot Lokasi Usaha",
@@ -608,7 +608,7 @@ export const dataArticleSemampiran: DataArticleSemampiran = {
     ),
   },
   "video-profil": {
-    image: "/semampiran/video-profil.jpg",
+    image: "/kragilan/video-profil.jpg",
     location: "Dusun Semampiran, Kelurahan Ketundan",
     title:
       "Mengulik Kehidupan dari Segi Ekonomi, Sosial, hingga Lingkungan dan Kesehatan",

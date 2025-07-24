@@ -6,13 +6,13 @@ import {
   Loader,
   Search,
   SubunitKlasterHero,
-  dataSemampiran,
+  dataKragilan,
 } from "@/components";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
-export function Semampiran() {
+export function Kragilan() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export function Semampiran() {
       setLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // Cle
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -42,25 +42,25 @@ export function Semampiran() {
         <ArrowBack />
       </div>
       <SubunitKlasterHero
-        image="/semampiran/hero.jpg"
+        image="/kragilan/hero.jpg"
         title={
           <>
-            Sub Unit Ketundan 1
+            Sub Unit Kragilan
             <br />
-            Dusun Semampiran
+            Dusun Kragilan
           </>
         }
-        description="Sub unit Ketundan 1 (Dusun Semampiran) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."
+        description="Sub unit Kragilan (Dusun Kragilan) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
-          <H1 className="font-bold">Let’s See Our Sub Unit Semampiran!</H1>
+          <H1 className="font-bold">Let’s See Our Sub Unit Kragilan!</H1>
           <H3 className="pt-[24px]">
             Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
-            Ketundan 1
+            Kragilan
           </H3>
 
-          <Search items={dataSemampiran} routeTo="sub-unit/semampiran" />
+          <Search items={dataKragilan} routeTo="sub-unit/kragilan" />
         </Container>
       </div>
     </>

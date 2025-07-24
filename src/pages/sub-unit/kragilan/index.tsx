@@ -1,16 +1,16 @@
-import { Pucung, Navbar, Footer } from "@/components";
+import { Kragilan, Navbar, Footer } from "@/components";
 import Head from "next/head";
 
-export default function PucungPage() {
+export default function KragilanPage() {
   return (
     <>
       <Head>
-        <title>Pogalan 1 - Pucung</title>
+        <title>Kragilan</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <main>
         <Navbar />
-        <Pucung />
+        <Kragilan />
         <Footer />
       </main>
     </>

@@ -1,11 +1,11 @@
-import { ArrowBack, H1, Loader, dataArticleSemampiran } from "@/components";
+import { ArrowBack, H1, Loader, dataArticleKragilan } from "@/components";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
-export function ArticleSemampiran({ href }: any) {
-  const data = dataArticleSemampiran[href];
+export function ArticleKragilan({ href }: any) {
+  const data = dataArticleKragilan[href];
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export function ArticleSemampiran({ href }: any) {
       setLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // Cle
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {

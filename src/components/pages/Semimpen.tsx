@@ -21,7 +21,7 @@ export function Semimpen() {
       setLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // Cle
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {

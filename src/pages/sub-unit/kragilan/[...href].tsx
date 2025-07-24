@@ -1,21 +1,23 @@
-import { ArticlePucung, ContainerArticle, Footer, Navbar } from "@/components";
+import {
+  ArticleKragilan,
+  ContainerArticle,
+  Footer,
+  Navbar,
+} from "@/components";
 import Head from "next/head";
 
 export async function getStaticPaths() {
   const routes = [
-    "pesona-pucung",
-    "manajemen-keuangan",
-    "proker-inventarisasi",
-    "sosialisasi-poc",
-    "sosialisasi-microgreen",
-    "sosialisasi-mpasi",
-    "kebersihan",
-    "retaining-wall",
-    "pembuatan-rab-retaining",
-    "pendampingan-hafalan",
-    "pendampingan-tpa",
-    "posyandu",
-    "pencegahan-stunting",
+    "pesona-semampiran",
+    "kompos",
+    "perangkap-tikus",
+    "revitalisasi-pos",
+    "tambah-darah",
+    "penyakit-ternak",
+    "pmt-balita",
+    "materi",
+    "sosialisasi-google",
+    "video-profil",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };
@@ -30,16 +32,16 @@ export async function getStaticProps({ params }: any) {
   return { props: { href: params.href } };
 }
 
-export default function PucungArticle({ href }: any) {
+export default function KragilanArticle({ href }: any) {
   return (
     <>
       <Head>
-        <title>Pogalan 1 - Pucung</title>
+        <title>Kragilan</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <Navbar />
       <ContainerArticle>
-        <ArticlePucung href={href} />
+        <ArticleKragilan href={href} />
       </ContainerArticle>
       <Footer />
     </>
