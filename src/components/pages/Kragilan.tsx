@@ -42,15 +42,15 @@ export function Kragilan() {
         <ArrowBack />
       </div>
       <SubunitKlasterHero
-        image="/semampiran/hero.jpg"
+        image="/kragilan/hero.jpg"
         title={
           <>
-            Sub Unit Ketundan 1
+            Sub Unit Kragilan
             <br />
-            Dusun Semampiran
+            Dusun Kragilan
           </>
         }
-        description="Sub unit Ketundan 1 (Dusun Semampiran) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."
+        description="Sub unit Kragilan (Dusun Kragilan) pada KKN PPM UGM fokus pada pengembangan masyarakat lokal melalui program pemberdayaan ekonomi, pendidikan, dan kesehatan berbasis kebutuhan dusun."
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
@@ -60,7 +60,7 @@ export function Kragilan() {
             Kragilan
           </H3>
 
-          <Search items={dataKragilan} routeTo="sub-unit/semampiran" />
+          <Search items={dataKragilan} routeTo="sub-unit/kragilan" />
         </Container>
       </div>
     </>
