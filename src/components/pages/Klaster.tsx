@@ -44,7 +44,7 @@ export function Klaster() {
       />
       <div data-aos="fade-up">
         <Container className="pt-[101px] font-jakarta">
-          <H1 className="text-center text-2xl font-bold md:text-3xl lg:text-4xl">
+          <H1 className="text-center text-xl font-bold md:text-3xl lg:text-4xl">
             Let’s See Our Klaster!
           </H1>
           <H3 className="pt-6 text-center text-base md:text-lg lg:text-xl">
@@ -56,7 +56,11 @@ export function Klaster() {
             data-aos="fade-up"
           >
             {dataKlaster.map(({ image, title, href, description }: any) => (
-              <a href={`/klaster/${href}`} key={title} className="block">
+              <a
+                href={`/klaster/${href}`}
+                key={title}
+                className="block h-full transition-transform duration-300 hover:scale-[1.02]"
+              >
                 <SubunitKlasterCard
                   image={image}
                   title={title}

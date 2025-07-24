@@ -4,27 +4,27 @@ export const dataKlaster = [
     title: "Saintek",
     href: "saintek",
     description:
-      "Klaster Saintek pada KKN PPM UGM fokus pada penerapan ilmu sains dan teknologi untuk mengatasi masalah dan meningkatkan kualitas hidup masyarakat.",
+      "Klaster Saintek KKN PPM UGM berfokus pada penerapan iptek untuk membantu masyarakat dalam menyelesaikan masalah dan meningkatkan kesejahteraan hidup.",
   },
   {
     image: "/pucung/card.jpg",
     title: "Soshum",
     href: "soshum",
     description:
-      "Klaster Soshum pada KKN PPM UGM melibatkan mahasiswa dari bidang sosial humaniora untuk menerapkan ilmu dalam pemberdayaan masyarakat dan pengembangan sosial-ekonomi di lokasi KKN.",
+      "Klaster Soshum KKN PPM UGM melibatkan mahasiswa sosial humaniora dalam program pemberdayaan, pendidikan, dan penguatan aspek sosial ekonomi di tengah masyarakat desa.",
   },
   {
     image: "/semampiran/card.jpg",
     title: "Medika",
     href: "medika",
     description:
-      "Klaster Medika pada KKN PPM UGM berfokus pada kesehatan masyarakat, dengan kegiatan seperti penyuluhan kesehatan, pemeriksaan medis, dan peningkatan fasilitas kesehatan lokal.",
+      "Klaster Medika KKN PPM UGM menekankan peningkatan kesehatan masyarakat melalui edukasi, pelayanan kesehatan dasar, serta penguatan sistem dan fasilitas kesehatan lokal.",
   },
   {
     image: "/semimpen/card.jpg",
     title: "Agro",
     href: "agro",
     description:
-      "Klaster Agro pada KKN PPM UGM fokus pada pengembangan sektor pertanian, perkebunan, dan peternakan melalui pemberdayaan masyarakat dan inovasi teknologi pertanian.",
+      "Klaster Agro KKN PPM UGM bertujuan mengembangkan sektor pertanian, peternakan, dan perkebunan dengan inovasi teknologi, pelatihan, serta pemberdayaan petani lokal.",
   },
 ];
