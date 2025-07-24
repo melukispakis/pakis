@@ -1,6 +1,6 @@
 export const dataSubunit = [
   {
-    image: "/pucung/card.jpg",
+    image: "/gerotan/card.jpg",
     title: "Gerotan",
     href: "gerotan",
     description:

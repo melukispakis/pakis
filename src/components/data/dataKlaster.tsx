@@ -7,14 +7,14 @@ export const dataKlaster = [
       "Klaster Saintek KKN PPM UGM berfokus pada penerapan iptek untuk membantu masyarakat dalam menyelesaikan masalah dan meningkatkan kesejahteraan hidup.",
   },
   {
-    image: "/pucung/card.jpg",
+    image: "/gerotan/card.jpg",
     title: "Soshum",
     href: "soshum",
     description:
       "Klaster Soshum KKN PPM UGM melibatkan mahasiswa sosial humaniora dalam program pemberdayaan, pendidikan, dan penguatan aspek sosial ekonomi di tengah masyarakat desa.",
   },
   {
-    image: "/semampiran/card.jpg",
+    image: "/kragilan/card.jpg",
     title: "Medika",
     href: "medika",
     description:
