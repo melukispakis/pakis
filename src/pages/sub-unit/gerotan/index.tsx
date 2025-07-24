@@ -5,7 +5,7 @@ export default function PucungPage() {
   return (
     <>
       <Head>
-        <title>Pogalan 1 - Pucung</title>
+        <title>Ketundan 1 - Gerotan</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <main>

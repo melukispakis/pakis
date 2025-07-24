@@ -1,4 +1,4 @@
-import { ArticlePucung, ContainerArticle, Footer, Navbar } from "@/components";
+import { ArticleGerotan, ContainerArticle, Footer, Navbar } from "@/components";
 import Head from "next/head";
 
 export async function getStaticPaths() {
@@ -34,12 +34,12 @@ export default function PucungArticle({ href }: any) {
   return (
     <>
       <Head>
-        <title>Pogalan 1 - Pucung</title>
+        <title>Ketundan 1 - Gerotan</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <Navbar />
       <ContainerArticle>
-        <ArticlePucung href={href} />
+        <ArticleGerotan href={href} />
       </ContainerArticle>
       <Footer />
     </>
