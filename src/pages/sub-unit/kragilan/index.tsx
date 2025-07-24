@@ -1,16 +1,16 @@
-import { Footer, Gerdu, Navbar } from "@/components";
+import { Footer, Kragilan, Navbar } from "@/components";
 import Head from "next/head";
 
 export default function GerduPage() {
   return (
     <>
       <Head>
-        <title>Pogalan 2 - Gerdu</title>
+        <title>Kragilan</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <main>
         <Navbar />
-        <Gerdu />
+        <Kragilan />
         <Footer />
       </main>
     </>

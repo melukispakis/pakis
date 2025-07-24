@@ -1,4 +1,4 @@
-import { Pucung, Navbar, Footer } from "@/components";
+import { Gerotan, Navbar, Footer } from "@/components";
 import Head from "next/head";
 
 export default function PucungPage() {
@@ -10,7 +10,7 @@ export default function PucungPage() {
       </Head>
       <main>
         <Navbar />
-        <Pucung />
+        <Gerotan />
         <Footer />
       </main>
     </>

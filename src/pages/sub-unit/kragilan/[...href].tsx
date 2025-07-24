@@ -33,7 +33,7 @@ export default function GerduArticle({ href }: any) {
   return (
     <>
       <Head>
-        <title>Pogalan 2 - Gerdu</title>
+        <title>Kragilan</title>
         <link rel="icon" href="/logo-pakis.png" />
       </Head>
       <Navbar />
