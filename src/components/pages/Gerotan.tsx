@@ -20,7 +20,7 @@ export function Gerotan() {
       setLoading(false);
     }, 1000);
 
-    return () => clearTimeout(timer); // Cle
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export function Gerotan() {
         <ArrowBack />
       </div>
       <SubunitKlasterHero
-        image="/pucung/hero.jpg"
+        image="/gerotan/hero.jpg"
         title={
           <>
             Sub Unit Ketundan 1
@@ -60,7 +60,7 @@ export function Gerotan() {
             Ketundan 1
           </H3>
 
-          <Search items={dataGerotan} routeTo="sub-unit/pucung" />
+          <Search items={dataGerotan} routeTo="sub-unit/gerotan" />
         </Container>
       </div>
     </>
