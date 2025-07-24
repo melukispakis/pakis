@@ -1,7 +1,7 @@
-import { Footer, Kragilan, Navbar } from "@/components";
+import { Kragilan, Navbar, Footer } from "@/components";
 import Head from "next/head";
 
-export default function GerduPage() {
+export default function KragilanPage() {
   return (
     <>
       <Head>
