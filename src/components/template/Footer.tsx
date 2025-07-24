@@ -40,7 +40,7 @@ export function Footer() {
                 alt="image"
                 height={1000}
                 width={1000}
-                className="w-[44px]"
+                className="w-[44px] rounded-full border-2 border-white"
               />
               <H5 className="font-jakarta">
                 Melukis
@@ -98,15 +98,7 @@ export function Footer() {
                 Sub Unit
               </Text>
               <div className="flex flex-col gap-y-[5px]">
-                <a href="/sub-unit/pucung">
-                  <Text
-                    size="lg"
-                    className="underline-animation duration-300 hover:font-bold"
-                  >
-                    Kragilan
-                  </Text>
-                </a>
-                <a href="/sub-unit/gerdu">
+                <a href="/sub-unit/gerotan">
                   <Text
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
@@ -122,14 +114,14 @@ export function Footer() {
                     Semimpen
                   </Text>
                 </a>
-                {/* <a href="/sub-unit/semimpen">
+                <a href="/sub-unit/pucung">
                   <Text
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Ketundan 2
+                    Kragilan
                   </Text>
-                </a> */}
+                </a>
               </div>
             </div>
             <div
