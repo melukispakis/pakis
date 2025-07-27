@@ -103,7 +103,7 @@ export function Footer() {
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Gerotan
+                    Gerotan (Ketundan 1)
                   </Text>
                 </a>
                 <a href="/sub-unit/semimpen">
@@ -111,7 +111,7 @@ export function Footer() {
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Semimpen
+                    Semimpen (Ketundan 2)
                   </Text>
                 </a>
                 <a href="/sub-unit/kragilan">
@@ -119,7 +119,7 @@ export function Footer() {
                     size="lg"
                     className="underline-animation duration-300 hover:font-bold"
                   >
-                    Kragilan
+                    Kragilan (Kragilan)
                   </Text>
                 </a>
               </div>
