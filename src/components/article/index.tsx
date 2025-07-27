@@ -1,3 +1,4 @@
+
 export * from "./dataArticleGerotan";
 export * from "./dataArticleKragilan";
 export * from "./dataArticleSemimpen";
