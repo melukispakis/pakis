@@ -8,7 +8,6 @@ export * from "./Soshum";
 export * from "./Medika";
 export * from "./Agro";
 export * from "./Klaster";
-export * from "./ArticleGerdu";
 export * from "./ArticleGerotan";
 export * from "./ArticleKragilan";
 export * from "./ArticleSemimpen";
