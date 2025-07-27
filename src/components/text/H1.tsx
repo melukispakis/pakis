@@ -1,12 +1,14 @@
-export function H1(props: any) {
-  const { className, children } = props;
+type H1Props = {
+  className?: string;
+  children: React.ReactNode;
+};
+
+export function H1({ className = "", children }: H1Props) {
   return (
-    <p
-      className={`text-[60px] leading-[72px] lg:text-[64px] lg:leading-[76.8px] ${className}`}
+    <h1
+      className={`text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-[64px] lg:leading-[76.8px] ${className} font-bold`}
     >
       {children}
-    </p>
+    </h1>
   );
 }
-
-export default H1;
