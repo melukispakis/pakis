@@ -1,4 +1,3 @@
-export * from "./dataGerdu";
 export * from "./dataNavbar";
 export * from "./dataGerotan";
 export * from "./dataKragilan";

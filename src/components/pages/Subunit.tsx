@@ -45,11 +45,11 @@ export function Subunit() {
       <div data-aos="fade-up">
         <div className="transition-all duration-300 hover:scale-[1.03] hover:shadow-lg">
           <Container className="pb-24 pt-[101px] font-jakarta">
-            <H1 className="text-center text-xl font-bold md:text-3xl lg:text-4xl">
+            <H1>
               Let’s See Our Sub-Unit!
             </H1>
 
-            <H3 className="text-center text-base md:text-lg lg:text-xl pb-6">
+            <H3>
               Berikut adalah Sub-Unit dari Melukis Pakis di Desa Kragilan dan
               Ketundan
             </H3>
