@@ -54,12 +54,11 @@ export function Gerotan() {
       />
       <div data-aos="fade-up">
         <Container className="mt-[101px] font-jakarta">
-          <H1 className="font-bold">Let’s See Our Sub Unit Gerotan!</H1>
-          <H3 className="pt-[24px]">
+          <H1>Let’s See Our Sub Unit Gerotan!</H1>
+          <H3>
             Berikut adalah program kerja yang telah dilaksanakan oleh sub unit
             Ketundan 1
           </H3>
-
           <Search items={dataGerotan} routeTo="sub-unit/gerotan" />
         </Container>
       </div>
