@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { H2, P, ThemeSwitcher, dataNavbar } from "@/components";
 
 export function Navbar() {
@@ -24,7 +25,10 @@ export function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  });
+  }, [prevScrollPos]);
+
+  // ambil path aktif dari browser
+  const pathname = usePathname();
 
   return (
     <>
@@ -49,10 +53,14 @@ export function Navbar() {
           </div>
           <div className="relative z-40 hidden flex-row items-center justify-center gap-x-5 text-xl lg:flex lg:pr-20">
             {dataNavbar.map(({ title, href }) => {
+              const isActive = pathname === href;
               return (
                 <>
                   <a href={href} key={title}>
-                    <p className="underline-animation duration-300 hover:cursor-pointer hover:font-bold">
+                    <p
+                      className={`underline-animation duration-300 hover:cursor-pointer hover:font-bold ${isActive ? "font-bold underline underline-offset-4" : ""
+                        }`}
+                    >
                       {title}
                     </p>
                   </a>
@@ -74,15 +82,18 @@ export function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-hidden bg-[var(--color-bg)] pt-24 font-jakarta text-xl duration-1000 lg:hidden ${
-          active ? "max-w-[70vw]" : "max-w-0"
-        } ${hidden ? "-left-full" : "-left-0"}`}
+        className={`fixed top-0 z-[110] flex h-screen w-screen flex-col items-start justify-start gap-x-5 gap-y-[50px] overflow-hidden bg-[var(--color-bg)] pt-24 font-jakarta text-xl duration-1000 lg:hidden ${active ? "max-w-[70vw]" : "max-w-0"
+          } ${hidden ? "-left-full" : "-left-0"}`}
       >
         {dataNavbar.map(({ title, href }) => {
+          const isActive = pathname === href;
           return (
             <>
               <a href={href} key={title}>
-                <H2 className="underline-animation whitespace-nowrap pl-[50px] duration-300 hover:cursor-pointer hover:font-bold">
+                <H2
+                  className={`underline-animation whitespace-nowrap pl-[50px] duration-300 hover:cursor-pointer hover:font-bold ${isActive ? "font-bold underline underline-offset-4" : ""
+                    }`}
+                >
                   {title}
                 </H2>
               </a>
