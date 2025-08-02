@@ -15,4 +15,8 @@ export const dataNavbar = [
     href: "/all-teams",
     title: "All Teams",
   },
+  {
+    href: "/peta",
+    title: "Peta",
+  },
 ];
