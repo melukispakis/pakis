@@ -13,279 +13,143 @@ type DataArticleGerotan = {
 };
 
 export const dataArticleGerotan: DataArticleGerotan = {
-  "pesona-pucung": {
-    image: "/gerotan/week-1-hero.jpeg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Pesona Pucung",
+  "tpa": {
+    image: "/gerotan/tpa.jpg",
+    location: "Rumah TPA Dusun Gerotan",
+    title: "Kegiatan Mengajar TPA Anak-Anak",
     text: (
       <>
         <Text size="lg" className="indent-10">
-          Dusun Pucung merupakan permata tersembunyi di Jawa Tengah. Sebuah
-          dusun kecil yang terletak di Desa Pogalan, Kecamatan Pakis, Kabupaten
-          Magelang. Dusun ini menawarkan keindahan alam yang memukau, kehidupan
-          masyarakat yang masih sangat tradisional, serta suasana yang tenang
-          dan damai, membuatnya menjadi tempat yang ideal untuk melepas penat
-          dari hiruk-pikuk perkotaan. Secara geografis, Dusun Pucung dikelilingi
-          oleh perbukitan dan sawah yang hijau. Keberadaan perbukitan ini
-          memberikan pemandangan alam yang menakjubkan, terutama saat matahari
-          terbit dan terbenam. Udara yang segar dan bersih menjadi daya tarik
-          tersendiri bagi para pengunjung yang datang untuk menikmati ketenangan
-          dan keindahan alam. Di pagi hari, kabut tipis sering menyelimuti dusun
-          ini, menciptakan suasana magis yang sulit ditemukan di tempat lain.
+          Sebagai bentuk kontribusi nyata mahasiswa Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN-PPM), salah satu program kerja utama yang dijalankan di Dusun Gerotan adalah kegiatan mengajar TPA (Taman Pendidikan Al-Qur’an). Kegiatan ini difokuskan pada pengajaran Iqro’ dan Al-Qur’an bagi anak-anak dari usia Taman Kanak-Kanak (TK) hingga Sekolah Menengah Pertama (SMP), yang berjumlah sekitar 30 anak.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Kehidupan masyarakat Dusun Pucung masih sangat kental dengan budaya
-          dan adat istiadat Jawa. Mayoritas penduduk Dusun Pucung berprofesi
-          sebagai petani, menggantungkan hidup mereka pada hasil bumi. Selain
-          bertani, beberapa warga juga memelihara ternak seperti sapi dan
-          kambing. Kearifan lokal dan gotong royong menjadi nilai-nilai yang
-          masih dijunjung tinggi oleh masyarakat di sini. Mereka sering bekerja
-          sama dalam berbagai kegiatan, seperti saat musim panen atau
-          acara-acara adat.
+          Kegiatan ini berlangsung di Rumah TPA Dusun Gerotan, sebuah tempat yang menjadi pusat pembelajaran agama bagi anak-anak dusun. Pelaksanaan kegiatan dilakukan setiap hari, kecuali hari Kamis, mulai pukul 16.00 WIB hingga waktu Maghrib. Jadwal ini dipilih untuk menyesuaikan dengan waktu senggang anak-anak setelah pulang sekolah, sekaligus sebagai bagian dari rutinitas sore mereka dalam mendalami nilai-nilai keagamaan.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Salah satu acara adat yang masih dilestarikan di Dusun Pucung adalah
-          upacara &ldquo;Sedekah Bumi&rdquo;. Acara ini biasanya dilakukan pada
-          waktu tertentu sebagai ungkapan rasa syukur kepada Tuhan atas hasil
-          bumi yang melimpah. Saat acara ini, masyarakat berkumpul di satu
-          tempat, membawa berbagai macam hasil panen, dan melakukan doa bersama.
-          Tradisi ini tidak hanya menjadi ajang untuk bersyukur, tetapi juga
-          mempererat tali silaturahmi antarwarga.
+          Dalam proses belajar mengajar, mahasiswa KKN berperan sebagai pendamping sekaligus pengajar. Anak-anak dibagi berdasarkan kemampuan mereka, mulai dari yang baru belajar Iqro’ hingga yang sudah lancar membaca Al-Qur’an. Materi pembelajaran mencakup teknik membaca huruf hijaiyah dengan tajwid yang benar, hafalan surat-surat pendek, serta penanaman nilai-nilai akhlak melalui kisah-kisah islami.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Dusun Pucung juga memiliki beberapa daya tarik kesenian. Kesenian di
-          Dusun Pucung yaitu &quot;Topeng Ireng&quot;. Tarian ini memiliki ciri
-          khas yang unik karena penari mengenakan topeng hitam (ireng) yang
-          melambangkan kekuatan gaib atau kekuatan magis. Tradisi ini berkembang
-          sebagai bagian dari upacara atau perayaan tradisional, sering kali
-          terkait dengan kepercayaan spiritual dan kegiatan keagamaan tertentu.
-          Topeng hitam yang digunakan dalam tarian ini diyakini memiliki
-          kekuatan mistis yang dapat melindungi penari dari gangguan roh atau
-          makhluk gaib lainnya.
+          Kegiatan ini bukan hanya menjadi sarana untuk menumbuhkan kecintaan anak-anak terhadap Al-Qur’an, tetapi juga menjadi ruang pembelajaran bagi mahasiswa untuk mengasah kemampuan komunikasi, kesabaran, dan manajemen kelas. Interaksi yang hangat dan kedekatan emosional yang terjalin dengan para santri kecil menciptakan suasana belajar yang menyenangkan dan penuh makna
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Adapun daya tarik lainnya Dusun Pucung yaitu terdapat kelompok
-          pengrajin anyaman bambu &quot;Sipta Mandiri&quot;. Anyaman bambu
-          adalah salah satu kerajinan tangan yang telah lama menjadi bagian dari
-          budaya dan kehidupan masyarakat di Dusun Pucung, Desa Pogalan,
-          Kecamatan Pakis, Kabupaten Magelang, Jawa Tengah. Anyaman bambu tidak
-          hanya sebagai keterampilan yang praktis, tetapi juga merupakan warisan
-          budaya yang penting dalam kehidupan sehari-hari dan ekonomi lokal.
-          Keterampilan ini sering kali diajarkan dari generasi ke generasi,
-          dengan teknik-teknik tradisional yang dipelajari dan diterapkan secara
-          turun-temurun. Anyaman bambu tidak hanya berfungsi sebagai kerajinan
-          tangan, tetapi juga memiliki nilai estetika dan fungsi praktis dalam
-          kehidupan sehari-hari.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Meskipun Dusun Pucung masih terbilang tradisional dan jauh dari
-          kemewahan modern, namun hal inilah yang menjadi daya tarik utama dusun
-          ini. Para pengunjung dapat merasakan kehidupan yang lebih sederhana
-          dan dekat dengan alam. Selain itu, keramahan penduduk lokal membuat
-          siapa saja yang datang merasa seperti di rumah sendiri. Dusun Pucung
-          di Desa Pogalan, Kecamatan Pakis, memang layak menjadi salah satu
-          destinasi kunjungan rekreasi di Jawa Tengah. Keindahan alam, kehidupan
-          masyarakat yang harmonis, dan budaya yang kaya menjadikan dusun ini
-          tempat yang ideal untuk menikmati ketenangan dan keindahan alam yang
-          masih alami. Bagi mereka yang mencari pelarian dari kesibukan kota,
-          Dusun Pucung adalah pilihan yang sempurna.
+          Dukungan dari tokoh masyarakat dan orang tua sangat membantu kelancaran kegiatan ini. Mereka menyambut baik inisiatif mahasiswa KKN yang turut andil dalam pendidikan agama anak-anak mereka. Melalui kegiatan ini, mahasiswa KKN berharap dapat meninggalkan jejak kebaikan yang berkelanjutan dan memberikan dampak positif bagi generasi muda di Dusun Gerotan.
         </Text>
       </>
     ),
   },
-  "manajemen-keuangan": {
-    image: "/gerotan/manajemen-keuangan.jpg",
-    location: "SDN 3 Pogalan, Kelurahan Pogalan",
-    title: "Manajemen Keuangan",
+  "pelatihan-excel": {
+    image: "/gerotan/pelatihan-excel.jpg",
+    location: "SMP Negeri 3 Pakis",
+    title: "Pelatihan Microsoft Excel",
     text: (
       <>
         <Text size="lg" className="indent-10">
-          Program Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN
-          PPM) Universitas Gadjah Mada (UGM) tahun 2024 mengadakan sosialisasi
-          manajemen keuangan sejak dini di SD Pogalan 3. Tujuan dari program ini
-          adalah untuk membekali siswa dengan pengetahuan dasar tentang
-          pengelolaan keuangan yang bijaksana sehingga mereka dapat
-          mengembangkan kebiasaan finansial yang sehat sejak usia muda.
-        </Text>
-        <br />
-        <H2>Proses Pengajaran Materi Manajemen Keuangan </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Pengajaran materi manajemen keuangan dilakukan dengan pendekatan
-          interaktif dan menyenangkan untuk menarik minat siswa. Tim KKN PPM UGM
-          menggunakan metode pembelajaran yang meliputi presentasi visual,
-          permainan edukatif, dan diskusi kelompok. Materi yang disampaikan
-          mencakup konsep dasar seperti menabung, membelanjakan uang dengan
-          bijak, dan membuat anggaran. Melalui ilustrasi sederhana dan
-          contoh-contoh praktis, siswa diajak memahami cara mengelola uang
-          mereka dengan baik.
-        </Text>
-        <br />
-        <H2>Implementasi di SD Pogalan 3 </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Di SD Pogalan 3, kegiatan sosialisasi dimulai dengan pengenalan materi
-          dasar oleh anggota tim KKN. Siswa diajak untuk berpartisipasi aktif
-          melalui sesi tanya jawab dan berbagi pengalaman mengenai penggunaan
-          uang. Salah satu aktivitas yang menarik adalah simulasi membuat
-          anggaran mingguan. Dalam kegiatan ini, siswa diberikan uang mainan
-          berupa kertas dan diminta untuk merencanakan pengeluaran mereka untuk
-          berbagai kebutuhan seperti sekolah, jajan, dan tabungan.
+          Dalam rangka mendukung peningkatan literasi digital di kalangan pelajar, mahasiswa KKN-PPM melaksanakan kegiatan Pelatihan Microsoft Excel yang ditujukan bagi siswa-siswi SMP Negeri 3 Pakis. Kegiatan ini menjadi bagian dari program kerja KKN bidang pendidikan dan teknologi informasi, yang bertujuan membekali pelajar dengan keterampilan dasar pengolahan data menggunakan perangkat lunak spreadsheet yang umum digunakan di dunia pendidikan maupun dunia kerja.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Gambar yang diambil selama sesi pengajaran menunjukkan antusiasme
-          siswa dalam mengikuti kegiatan ini. Tim KKN memberikan panduan langkah
-          demi langkah, membantu siswa memahami bagaimana memprioritaskan
-          pengeluaran dan pentingnya menyisihkan sebagian uang untuk ditabung.
-          Siswa terlihat sangat bersemangat dan terlibat aktif dalam setiap
-          kegiatan, mencerminkan minat mereka untuk belajar lebih banyak tentang
-          manajemen keuangan.
-        </Text>
-        <br />
-        <H2>Harapan dan Dampak </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Melalui sosialisasi ini, diharapkan siswa SD Pogalan 3 dapat memiliki
-          kesadaran dan keterampilan dasar dalam mengelola keuangan mereka.
-          Pengetahuan ini penting untuk membentuk kebiasaan finansial yang sehat
-          sejak dini, yang akan berguna hingga mereka dewasa nanti. Selain itu,
-          program ini juga bertujuan untuk menanamkan nilai-nilai tanggung jawab
-          dan kemandirian pada siswa dalam hal keuangan. Dengan bekal manajemen
-          keuangan yang baik, diharapkan generasi muda dapat lebih siap
-          menghadapi tantangan ekonomi di masa depan.
+          Pelatihan ini diawali dengan sesi pembukaan dan pengenalan, yang mencakup perkenalan antara mahasiswa KKN dan peserta pelatihan, serta pemaparan tujuan pelatihan Microsoft Excel, yaitu agar siswa mampu memahami dasar-dasar penggunaan Excel dan menerapkannya dalam kegiatan belajar sehari-hari, seperti menghitung nilai, membuat grafik, dan mengelola data sederhana.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Program ini tidak hanya berkontribusi dalam pendidikan keuangan,
-          tetapi juga membangun hubungan positif antara universitas dan
-          masyarakat lokal, khususnya dalam upaya meningkatkan kualitas
-          pendidikan dasar.
+          Materi pertama yang disampaikan adalah Pengenalan Dasar Excel, di mana peserta dikenalkan dengan bagian-bagian utama dalam Excel seperti cell, kolom, baris, dan function bar. Mahasiswa KKN juga memberikan penjelasan mengenai navigasi dan fungsi dasar yang sering digunakan.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Selanjutnya, pelatihan berlanjut ke penggunaan rumus dasar, seperti:
+        </Text>
+        <ul className="list-disc list-inside ml-10 text-lg">
+          <li>SUM untuk menjumlahkan data</li>
+          <li>AVERAGE untuk menghitung nilai rata-rata</li>
+          <li>MAX dan MIN untuk mencari nilai tertinggi dan terendah</li>
+          <li>IF untuk logika sederhana dalam pengolahan data</li>
+        </ul>
+        <br />
+        <Text size="lg" className="indent-10">
+          Setelah sesi teori, peserta diarahkan pada instruksi latihan praktik, di mana mereka dibimbing menggunakan file latihan bernama <code>Latihan_Excel.xlsx</code>. File ini berisi tabel nilai siswa yang dapat diolah menggunakan rumus-rumus yang telah diajarkan.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Dalam sesi latihan praktik mandiri, siswa diminta untuk:
+        </Text>
+        <ul className="list-disc list-inside ml-10 text-lg">
+          <li>Mengisi tabel nilai mata pelajaran</li>
+          <li>Menerapkan rumus-rumus yang telah dipelajari</li>
+          <li>Membuat grafik sederhana untuk memvisualisasikan data nilai</li>
+        </ul>
+        <br />
+        <Text size="lg" className="indent-10">
+          Kegiatan ditutup dengan sesi diskusi dan peninjauan hasil latihan. Peserta diberikan kesempatan untuk bertanya dan berbagi kendala selama latihan. Mahasiswa KKN memberikan tanggapan serta solusi dari permasalahan yang ditemukan, sekaligus menegaskan kembali poin-poin penting dari materi yang telah dipelajari.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Melalui pelatihan ini, diharapkan siswa-siswi SMPN 3 Pakis memiliki bekal awal dalam penggunaan Excel yang dapat mereka kembangkan lebih lanjut. Program ini juga membuktikan pentingnya sinergi antara mahasiswa dan sekolah dalam mendukung kemajuan pendidikan berbasis teknologi di tingkat sekolah menengah.
         </Text>
       </>
     ),
   },
-  "sosialisasi-poc": {
-    image: "/gerotan/sosialisasi-poc.jpeg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
+
+  "kelas-tik": {
+    image: "/gerotan/kelas-tik.jpg",
+    location: "Posko KKN UGM Sub Unit Gerotan",
     title:
-      "Sosialisasi Pembuatan Pupuk Organik Cair: Menuju Pertanian Ramah Lingkungan",
+      "Kelas TIK Microsoft Word untuk Pelajar Desa",
     text: (
       <>
         <Text size="lg" className="indent-10">
-          <br />
-          Pada tanggal 3 Agustus 2024, tim KKN PPM Universitas Gadjah Mada
-          melaksanakan kegiatan sosialisasi pembuatan pupuk organik cair dari
-          limbah tanaman sayur. Kegiatan dilaksanakan di Dusun Pucung, Desa
-          Pogalan, Kecamatan Pakis, Kabupaten Magelang. Kegiatan ini bertujuan
-          untuk meningkatkan pengetahuan dan keterampilan kelompok tani
-          Mekarsari dalam membuat pupuk organik cair yang berkualitas. Kegiatan
-          ini juga bertujuan untuk mengurangi ketergantungan penggunaan pupuk
-          kimia oleh anggota kelompok tani Mekarsari.
+          Sebagai upaya meningkatkan literasi digital di kalangan pelajar desa, mahasiswa KKN-PPM melaksanakan Kelas Teknologi Informasi dan Komunikasi (TIK) yang berfokus pada pelatihan penggunaan Microsoft Word. Kegiatan ini ditujukan kepada siswa SMP dan SMA, agar mereka memiliki keterampilan dasar dalam membuat dokumen formal, yang sangat dibutuhkan dalam penyusunan tugas maupun laporan.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Acara dimulai pada pukul 20.00 WIB dengan sambutan dari ketua kelompok
-          tani Mekarsari dan ketua tim KKN Sub Unit Pogalan 1. Dalam
-          sambutannya, ketua kelompok tani menjelaskan pentingnya pupuk organik
-          cair dalam meningkatkan kesuburan tanah dan hasil pertanian. Pupuk
-          organik cair memiliki manfaat tambahan seperti meningkatkan kapasitas
-          menahan air pada tanah dan mengurangi ketergantungan pada pupuk kimia.
+          Materi pelatihan disusun secara bertahap dan aplikatif. Siswa diajarkan membuat template laporan, mulai dari halaman cover, pengaturan margin dan font, hingga penulisan Bab I, II, dan III. Selain itu, peserta juga belajar membuat daftar isi otomatis (TOC) dengan memanfaatkan fitur heading (Heading 1, Heading 2) yang tepat.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Pelatihan dilanjutkan dengan sesi teori yang disampaikan oleh tim KKN
-          UGM. Materi yang disampaikan meliputi pengertian pupuk organik cair,
-          kelebihan dan kekurangan, komponen bahan-bahan yang dibutuhkan, proses
-          pembuatan, serta cara aplikasi pupuk organik cair pada tanaman. Para
-          peserta mendapatkan pengetahuan mengenai bahan-bahan seperti limbah
-          organik, molasses, EM4 dan air yang merupakan bahan dasar pembuatan
-          pupuk organik cair. Selain itu, mereka juga mempelajari teknik
-          fermentasi yang tepat untuk menghasilkan pupuk yang efektif.
+          Untuk menunjang visualisasi dalam dokumen, mahasiswa KKN juga mengajarkan cara menyisipkan gambar, mengatur posisi, dan memberikan keterangan gambar (caption) dengan penomoran otomatis. Semua materi ini langsung dipraktikkan oleh peserta melalui penyusunan dokumen latihan.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Setelah sesi teori, kegiatan dilanjutkan dengan praktik pembuatan
-          pupuk organik cair. Peserta dijelaskan cara mengolah bahan-bahan
-          menjadi pupuk. Setiap anggota kelompok melihat praktek secara langsung
-          yang disampaikan oleh tim KKN-PPM UGM. Proses ini bertujuan agar
-          peserta dapat memahami langkah-langkah dengan lebih jelas dan
-          terampil.
+          Di akhir sesi, siswa diberi waktu untuk menyusun laporan sederhana secara mandiri dengan pendampingan mahasiswa. Mereka belajar memahami struktur dokumen yang baik, serta cara memanfaatkan fitur Word untuk efisiensi dan kerapian dokumen.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Kegiatan ini disambut antusias oleh para pelajar. Banyak dari mereka baru pertama kali mengetahui bahwa daftar isi atau keterangan gambar bisa dibuat otomatis. Program ini terbukti efektif dalam membuka wawasan pelajar terhadap pemanfaatan teknologi, khususnya dalam menunjang kegiatan akademik.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Dengan terselenggaranya Kelas TIK ini, mahasiswa KKN berharap pelajar desa mampu menyusun laporan secara profesional dan percaya diri menggunakan Microsoft Word. Program ini menjadi langkah awal dalam membekali generasi muda desa menghadapi tantangan dunia pendidikan dan pekerjaan yang semakin berbasis digital.
         </Text>
       </>
     ),
   },
-  "proker-inventarisasi": {
-    image: "/gerotan/proker-inventarisasi.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Pembuatan Aplikasi Inventarisasi Aset Dusun",
+  "digitalisasi-umkm": {
+    image: "/gerotan/digitalisasi-umkm.jpg",
+    location: "UMKM di Kelurahan Ketundan",
+    title: "Digitalisasi Lokasi dan Informasi UMKM",
     text: (
       <>
         <Text size="lg" className="indent-10">
-          Program Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN
-          PPM) Universitas Gadjah Mada (UGM) tahun 2024 mengusung tema pembuatan
-          aplikasi inventarisasi aset dusun. Program ini bertujuan untuk
-          meningkatkan efisiensi dan transparansi dalam pengelolaan aset dusun
-          melalui teknologi informasi.
-        </Text>
-        <br />
-        <H2>Pengamatan Aset Dusun </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Tahap awal dalam program kerja ini adalah melakukan pengamatan
-          langsung terhadap aset-aset dusun. Tim KKN bekerja sama dengan
-          perangkat desa untuk mengidentifikasi dan mendata aset-aset yang ada,
-          seperti bangunan, lahan, peralatan, dan fasilitas umum lainnya.
-          Pengamatan ini bertujuan untuk mendapatkan data akurat dan lengkap
-          mengenai kondisi dan nilai aset yang dimiliki dusun. Tim KKN
-          menggunakan metode survei dan wawancara untuk mengumpulkan informasi
-          dari berbagai sumber, termasuk kepala dusun dan warga setempat. Setiap
-          aset didokumentasikan dengan foto dan deskripsi rinci yang akan
-          diintegrasikan ke dalam aplikasi inventarisasi.
-        </Text>
-        <br />
-        <H2>Pengajaran Pencatatan Aset ke Aplikasi Inventarisasi </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Setelah data aset terkumpul, langkah selanjutnya adalah mengajarkan
-          penggunaan aplikasi inventarisasi kepada kepala dusun dan perangkat
-          desa lainnya. Pelatihan ini dilakukan secara interaktif dengan metode
-          hands-on, di mana peserta langsung praktek menggunakan aplikasi di
-          perangkat mereka. Tim KKN menjelaskan fitur-fitur utama aplikasi,
-          seperti input data aset, pencarian aset, pembaruan informasi, dan
-          pembuatan laporan. Kepala dusun dan perangkat desa diajak untuk
-          memasukkan data aset yang telah dikumpulkan ke dalam aplikasi,
-          memastikan mereka memahami setiap langkah proses tersebut. Selain itu,
-          tim KKN juga memberikan panduan tertulis dan video tutorial sebagai
-          bahan rujukan.
+          Mahasiswa KKN-PPM turut mengambil peran dalam mendorong pertumbuhan ekonomi lokal melalui program kerja bertajuk “Digitalisasi Lokasi dan Informasi UMKM” di Kelurahan Ketundan. Program ini difokuskan pada upaya membantu para pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) agar dapat dikenal lebih luas oleh masyarakat dengan memanfaatkan teknologi digital, khususnya platform Google Maps (GMaps).
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Program ini diharapkan dapat memberikan manfaat jangka panjang bagi
-          dusun dalam mengelola aset secara lebih efektif dan efisien. Dengan
-          aplikasi inventarisasi aset, dusun dapat memonitor kondisi aset,
-          melakukan pemeliharaan tepat waktu, dan membuat perencanaan yang lebih
-          baik. Selain itu, transparansi dalam pengelolaan aset juga diharapkan
-          dapat meningkatkan kepercayaan warga terhadap pemerintah dusun.
-          Melalui program ini, KKN PPM UGM tidak hanya berperan dalam
-          pengembangan teknologi, tetapi juga dalam pemberdayaan masyarakat
-          untuk pengelolaan sumber daya yang lebih baik.
+          Dalam program ini, mahasiswa KKN mendampingi pemilik UMKM dalam proses pendaftaran dan verifikasi lokasi usaha mereka di Google Maps, termasuk pembuatan akun Google Bisnisku (Google Business Profile). Hal ini bertujuan agar usaha mereka dapat dengan mudah ditemukan oleh pelanggan melalui pencarian online, sekaligus menampilkan informasi penting seperti jam operasional, alamat, nomor telepon, serta foto produk dan lokasi.
         </Text>
         <br />
         <Text size="lg" className="indent-10">
-          Di akhir acara, peserta diberikan kesempatan untuk bertanya dan
-          berdiskusi tentang kendala yang mungkin mereka hadapi dalam penerapan
-          pupuk organik cair di lahan pertanian mereka. Kesimpulan dari
-          sosialisasi ini adalah pentingnya penggunaan pupuk organik cair untuk
-          mendukung pertanian berkelanjutan dan menjaga kesehatan tanah.
-          Kegiatan ini diharapkan dapat membantu kelompok tani Mekarsari dalam
-          meningkatkan produktivitas pertanian mereka dengan metode yang ramah
-          lingkungan.
+          Program ini disambut antusias oleh para pelaku UMKM yang selama ini belum memiliki akses atau pengetahuan terkait pemasaran digital. Banyak dari mereka yang baru pertama kali mengetahui bahwa usaha kecil pun bisa tampil di Google Maps dan menjangkau pelanggan lebih luas.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Dengan adanya digitalisasi ini, UMKM di Kelurahan Ketundan tidak hanya memperoleh visibilitas secara online, tetapi juga berpeluang mendapatkan lebih banyak pelanggan, baik dari dalam maupun luar daerah. Mahasiswa KKN berharap bahwa keterampilan ini dapat diteruskan oleh para pelaku usaha secara mandiri ke depannya.
+        </Text>
+        <br />
+        <Text size="lg" className="indent-10">
+          Program ini menjadi bukti nyata bahwa sinergi antara mahasiswa dan masyarakat dapat menghasilkan dampak positif yang berkelanjutan, terutama dalam mendukung transformasi digital di sektor ekonomi lokal.
         </Text>
       </>
     ),
