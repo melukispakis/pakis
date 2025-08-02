@@ -1,23 +1,23 @@
 export const dataGerotan = [
   {
-    image: "/gerotan/week-1-hero.jpeg",
-    title: "Pesona Pucung",
-    href: "pesona-pucung",
+    image: "/gerotan/tpa.jpg",
+    title: "Kegiatan Mengajar TPA",
+    href: "tpa",
   },
   {
-    image: "/gerotan/manajemen-keuangan.jpg",
-    title: "Sosialisasi Manajemen Keuangan",
-    href: "manajemen-keuangan",
+    image: "/gerotan/pelatihan-excel.jpg",
+    title: "Pelatihan Microsoft  Excel untuk SMP",
+    href: "pelatihan-excel",
   },
   {
-    image: "/gerotan/proker-inventarisasi.jpg",
-    title: "Pembuatan Aplikasi Inventarisasi",
-    href: "proker-inventarisasi",
+    image: "/gerotan/digitalisasi-umkm.jpg",
+    title: "Digitalisasi Lokasi dan Informasi UMKM",
+    href: "digitalisasi-umkm",
   },
   {
-    image: "/gerotan/sosialisasi-poc.jpeg",
+    image: "/gerotan/kelas-tik.jpg",
     title: "Sosialisasi POC",
-    href: "sosialisasi-poc",
+    href: "kelas-tik",
   },
   {
     image: "/gerotan/sosialisasi-microgreen.jpeg",

@@ -3,10 +3,10 @@ import Head from "next/head";
 
 export async function getStaticPaths() {
   const routes = [
-    "pesona-pucung",
-    "manajemen-keuangan",
-    "proker-inventarisasi",
-    "sosialisasi-poc",
+    "tpa",
+    "pelatihan-excel",
+    "digitalisasi-umkm",
+    "kelas-tik",
     "sosialisasi-microgreen",
     "sosialisasi-mpasi",
     "kebersihan",
