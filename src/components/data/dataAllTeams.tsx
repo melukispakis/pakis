@@ -96,7 +96,7 @@ export const dataAllTeams = [
   },
   {
     name: "Asmarina Nurjanah",
-    image: "/tim/xenia.png",
+    image: "/tim/rina.png",
     fakultas: "Fakultas Sekolah Vokasi",
   },
 ];
