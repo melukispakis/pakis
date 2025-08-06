@@ -17,6 +17,6 @@ export const dataNavbar = [
   },
   {
     href: "/peta",
-    title: "Peta",
+    title: "Peta Lahan Pertanian",
   },
 ];
