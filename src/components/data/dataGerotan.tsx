@@ -54,14 +54,4 @@ export const dataGerotan = [
     title: "Sosialisasi Perizinan Pemanfaatan Mata Air",
     href: "perizinan-mata-air",
   },
-  {
-    image: "/gerotan/posyandu.jpg",
-    title: "Kegiatan Posyandu",
-    href: "posyandu",
-  },
-  {
-    image: "/gerotan/pencegahan-stunting.jpg",
-    title: "Sosialisasi Pencegahan Stunting",
-    href: "pencegahan-stunting",
-  },
 ];

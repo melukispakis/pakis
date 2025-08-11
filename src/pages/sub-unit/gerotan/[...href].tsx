@@ -14,8 +14,6 @@ export async function getStaticPaths() {
     "senam-kebugaran",
     "edukasi-keuangan",
     "perizinan-mata-air",
-    "posyandu",
-    "pencegahan-stunting",
   ];
   const paths = routes.map((route) => {
     return { params: { href: route.split("/") } };

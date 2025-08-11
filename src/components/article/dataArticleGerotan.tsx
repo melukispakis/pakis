@@ -92,7 +92,6 @@ export const dataArticleGerotan: DataArticleGerotan = {
       </>
     ),
   },
-
   "kelas-tik": {
     image: "/gerotan/kelas-tik.jpg",
     location: "Posko KKN UGM Sub Unit Gerotan",
