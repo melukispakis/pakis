@@ -154,292 +154,160 @@ export const dataArticleGerotan: DataArticleGerotan = {
       </>
     ),
   },
-  "sosialisasi-microgreen": {
-    image: "/gerotan/sosialisasi-microgreen.jpeg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Sosialisasi Microgreen",
+  "peta-lahan": {
+    image: "/gerotan/peta-lahan.jpg",
+    location: "Dusun Gerotan, Kelurahan Keundan",
+    title: "Pembuatan Peta Lahan Pertanian Dusun Gerotan",
     text: (
       <>
+        <p className="font-bold mt-1 mb-1">Latar Belakang</p>
         <Text size="lg" className="indent-10">
-          <H2>Si Kecil Microgreen: Pangan Alternatif Pencegah Stunting</H2>
-          <br />
-          Sejumlah program Kerja Kuliah Kerja Nyata (KKN) Unit Kecamatan Pakis,
-          Universitas Gadjah Mada, berfokus pada penanganan stunting. Salah
-          satunya, diwujudkan melalui program sosialisasi microgreen sebagai
-          pangan alternatif pencegah stunting. Program ini diikuti oleh peserta
-          posyandu yang dilaksanakan di Dusun Pucung, Desa Pogalan, Kecamatan
-          Pakis, Kabupaten Magelang. Tujuan utama dari sosialisasi ini adalah
-          untuk memperkenalkan kepada orang tua batita dan balita di Dusun
-          Pucung terkait dengan tata cara budidaya microgreen, sehingga para
-          orang tua dapat menjadikan microgreen sebagai sumber makanan bergizi
-          untuk anak.
+          Dusun Gerotan memiliki potensi pertanian yang sangat besar dengan berbagai jenis komoditas unggulan. Namun, hingga saat ini belum tersedia peta lahan pertanian yang memadai untuk mendukung pengelolaan dan pemanfaatan lahan secara optimal. Kondisi ini membuat informasi terkait sebaran lahan, jenis komoditas, serta status pemanfaatannya sulit diakses oleh masyarakat maupun pemerintah desa. Oleh karena itu, diperlukan pemetaan lahan pertanian yang akurat sebagai langkah awal dalam perencanaan dan pengembangan sektor pertanian di Dusun Gerotan.
         </Text>
-        <br />
+        <p className="font-bold mt-1 mb-1">Proses Pembuatan Peta</p>
         <Text size="lg" className="indent-10">
-          Microgreen, atau sayur mikro, merupakan tanaman yang dipanen pada
-          tahap awal pertumbuhannya, biasanya ketika daun dan batangnya masih
-          sangat muda, berukuran sekitar 1-3 inci. Meskipun kecil, microgreen
-          menawarkan nilai gizi yang sangat tinggi dan rasa yang intens. Mereka
-          sering digunakan dalam masakan sebagai tambahan dekoratif maupun
-          penambah rasa yang beragam. Budidaya microgreen relatif mudah dan
-          dapat dilakukan di rumah. Cukup dengan menanam benih di media tanam
-          yang lembab dan cukup sinar matahari, Anda bisa menghasilkan sayuran
-          segar sepanjang tahun. Prosesnya cepat, biasanya hanya memerlukan
-          waktu 7-14 hari, tergantung jenisnya. Microgreen juga dikenal karena
-          kandungan vitaminnya yang melimpah. Mereka mengandung vitamin A, C, E,
-          dan K dalam konsentrasi yang lebih tinggi dibandingkan sayuran dewasa.
-          Oleh karena itu, microgreen dapat dijadikan sebagai pangan alternatif
-          bagi anak untuk pencegahan stunting.
+          Kegiatan pembuatan peta lahan pertanian dilakukan melalui serangkaian tahapan, mulai dari pengumpulan data lapangan, wawancara dengan petani setempat, hingga pemetaan menggunakan teknologi berbasis GIS (Geographic Information System). Peta yang dihasilkan memuat informasi detail seperti batas lahan, jenis komoditas yang ditanam, serta kondisi lahan pada setiap wilayah.
         </Text>
-        <br />
+        <p className="font-bold mt-1 mb-1">Dampak dan Manfaat</p>
         <Text size="lg" className="indent-10">
-          Program sosialisasi microgreen berfokus pada pengenalan potensi sayur
-          lokal di Dusun Pucung yang dapat dikonsumsi pada fase microgreen untuk
-          mencegah stunting, seperti kubis. Microgreen kubis mengandung vitamin
-          C, kaya akan antioksidan, serta mampu mengontrol berat badan anak.
-          Program sosialisasi microgreen diawali dengan penjelasan materi
-          mengenai pengenalan microgreen, keuntungan mengonsumsi microgreen,
-          cara budidaya microgreen, serta pengenalan micogreen sayur lokal Dusun
-          Pucung. Setelah itu, program dilanjutkan dengan praktik pembuatan
-          microgreen kubis merah pada media rockwool. Program ditutup dengan
-          pembagian microgreen kit kepada peserta posyandu. Setelah program
-          sosialisasi microgreen diberikan, budidaya microgreen dapat berpotensi
-          menjadi aktivitas pertanian yang berkesinambungan. Harapannya, hasil
-          budidaya microgreen dapat dijadikan sebagai bahan pangan alternatif
-          untuk pencegahan stunting sehingga angka stunting di Dusun Pucung
-          dapat ditekan.
+          Hadirnya peta lahan pertanian memberikan banyak manfaat bagi masyarakat dan pengelola desa. Dengan peta ini, proses pendataan dan perencanaan pertanian dapat dilakukan secara lebih efektif. Masyarakat dapat dengan mudah memahami sebaran komoditas dan penggunaan lahan di wilayah mereka. Selain itu, peta ini juga menjadi dasar pengambilan keputusan dalam program pengembangan pertanian yang berkelanjutan, efisien, dan berbasis data.
+        </Text>
+        <p className="font-bold mt-1 mb-1">Kesimpulan</p>
+        <Text size="lg" className="indent-10">
+          Pembuatan peta lahan pertanian Dusun Gerotan bukan hanya sekadar dokumentasi, tetapi merupakan langkah strategis untuk meningkatkan produktivitas pertanian. Dengan informasi yang jelas dan akurat, diharapkan pengelolaan lahan dapat dilakukan secara optimal sehingga membawa manfaat jangka panjang bagi perekonomian desa dan kesejahteraan masyarakat.
         </Text>
       </>
     ),
   },
-  "sosialisasi-mpasi": {
-    image: "/gerotan/sosialisasi-mpasi.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Sosialisasi Resep MPASI dan Herbal Cegah Stunting",
+  "perangkap-kuning": {
+    image: "/gerotan/perangkap-kuning.jpg",
+    location: "Dusun Gerotan, Kelurahan Ketundan",
+    title: "Sistem Deteksi Dini Kutu Kebul melalui Perangkap Kuning dan Kalender Dinamika Populasi",
     text: (
       <>
-        <Text size="lg" className="indent-10">
-          <br />
-          Tim KKN PPM UGM 2024 periode 2 melaksanakan kegiatan bertajuk
-          &quot;Sosialisasi Resep MPASI dan Herbal Cegah Stunting&quot; yang
-          bertempat di posyandu desa. Kegiatan ini ditujukan kepada ibu-ibu yang
-          mengikuti posyandu dan memiliki balita. Pada hari pertama, tim KKN
-          turut serta dalam membantu kegiatan posyandu seperti penimbangan berat
-          badan dan pengukuran tinggi badan balita. Setelah itu, tim memberikan
-          pemaparan materi mengenai stunting, yang merupakan kondisi gagal
-          tumbuh pada anak balita akibat kekurangan gizi kronis. Materi ini
-          mencakup penjelasan tentang penyebab, dampak, dan cara pencegahan
-          stunting, serta pentingnya asupan gizi yang baik sejak dini. Tim KKN
-          juga memperkenalkan berbagai resep Makanan Pendamping ASI (MPASI) yang
-          kaya akan nutrisi serta berbagai jenis jamu tradisional yang dapat
-          membantu mencegah stunting, seperti temulawak dan kunyit.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Pemaparan materi dilakukan dengan bahasa yang mudah dipahami dan
-          dilengkapi dengan contoh-contoh konkret sehingga ibu-ibu bisa lebih
-          mengerti dan siap menerapkannya di rumah. Setelah pemaparan, diadakan
-          sesi tanya jawab dimana ibu-ibu diberikan kesempatan untuk bertanya
-          seputar stunting, gizi, dan penggunaan jamu dalam mendukung kesehatan
-          anak. Sesi ini berlangsung interaktif dengan banyak pertanyaan yang
-          diajukan, menunjukkan tingginya antusiasme dan kepedulian ibu-ibu
-          terhadap kesehatan balita mereka.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Pada hari kedua, kegiatan dilanjutkan dengan pembagian jamu serbuk
-          seperti temulawak kepada ibu-ibu peserta posyandu. Tim KKN memberikan
-          penjelasan mengenai cara konsumsi jamu tersebut, termasuk dosis yang
-          tepat dan waktu terbaik untuk mengkonsumsinya agar mendapatkan manfaat
-          optimal. Selain itu, tim kembali membantu pelaksanaan kegiatan
-          posyandu, memastikan bahwa setiap balita mendapatkan pemeriksaan
-          kesehatan yang memadai.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Kegiatan ini diharapkan dapat memberikan pengetahuan dan keterampilan
-          praktis kepada ibu-ibu dalam upaya mencegah stunting melalui pemberian
-          MPASI yang bergizi dan penggunaan herbal tradisional. Dengan demikian,
-          ibu-ibu dapat lebih memahami pentingnya gizi dalam tumbuh kembang anak
-          serta mengintegrasikan pengetahuan tersebut dalam pola asuh
-          sehari-hari. Sosialisasi ini juga menekankan pentingnya peran aktif
-          orang tua dalam menjaga kesehatan anak, serta pentingnya kerjasama
-          antara berbagai pihak untuk mencapai tujuan kesehatan yang lebih baik
-          bagi generasi mendatang. Tim KKN PPM UGM 2024 berharap kegiatan ini
-          dapat memberikan dampak positif jangka panjang dan turut membantu
-          menurunkan angka stunting di dunia.
-        </Text>
+        <div className="space-y-4">
+          <ul className="list-disc list-inside text-lg ml-4">
+            <li>Sasaran: Warga Dusun Gerotan</li>
+            <li>Peserta: ± 35 orang</li>
+          </ul>
+
+          <p className="font-bold mt-1 mb-1">Latar Belakang</p>
+          <p className="text-lg indent-10">
+            Proker ini dilaksanakan untuk mengenalkan sistem pemantauan hama yang sederhana dan murah melalui perangkap kuning.
+            Melalui pendataan mingguan dan penyusunan kalender populasi, warga (petani) didorong agar dapat melakukan deteksi dini
+            dan pengendalian hama secara tepat.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Pelaksanaan Kegiatan</p>
+          <p className="text-lg indent-10">
+            Kegiatan dilaksanakan di Rumah Warga Dusun Gerotan dengan melibatkan warga setempat, khususnya para petani.
+            Peserta diberikan penjelasan mengenai cara pembuatan dan pemasangan perangkap kuning, teknik pencatatan jumlah
+            hama setiap minggu, serta penyusunan kalender populasi hama berdasarkan data yang diperoleh.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Dampak dan Manfaat</p>
+          <p className="text-lg indent-10">
+            Warga (petani) mulai memahami pentingnya monitoring hama dan penggunaan perangkap kuning.
+            Selain itu, kalender populasi juga membantu menentukan waktu pengendalian, sehingga penggunaan pestisida bisa
+            lebih efisien dan ramah lingkungan.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Kesimpulan</p>
+          <p className="text-lg indent-10">
+            Penerapan sistem pemantauan hama menggunakan perangkap kuning memberikan manfaat nyata bagi petani dalam mengurangi
+            risiko serangan hama. Dengan deteksi dini dan perencanaan pengendalian yang tepat, hasil pertanian dapat lebih terjaga
+            dan biaya operasional dapat ditekan.
+          </p>
+        </div>
       </>
     ),
   },
-  kebersihan: {
-    image: "/gerotan/kebersihan.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
+  "ph-tanah": {
+    image: "/gerotan/ph-tanah.jpg",
+    location: "Dusun Gerotan, Kelurahan Ketundan",
     title:
       "Sosialisasi dan Pelatihan Menjaga Kebersihan Lingkungan oleh Tim KKN PPM UGM 2024 di Masjid Dusun",
     text: (
       <>
-        <Text size="lg" className="indent-10">
-          <br />
-          Tim KKN PPM UGM 2024 periode 2 mengadakan kegiatan sosialisasi dan
-          pelatihan bertajuk &quot;Menjaga Kebersihan Lingkungan Sebagai Upaya
-          Menciptakan Lingkungan Bersih Cegah Stunting&quot; yang bertempat di
-          masjid dusun Pucung, Pogalan, Pakis, Magelang. Kegiatan ini diikuti
-          oleh anak-anak TPA dengan tujuan untuk meningkatkan kesadaran akan
-          pentingnya menjaga kebersihan lingkungan sebagai langkah pencegahan
-          stunting.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Kegiatan diawali dengan pemaparan materi tentang pentingnya menjaga
-          kebersihan lingkungan. Tim KKN memberikan penjelasan tentang bagaimana
-          kebersihan yang terjaga dapat mencegah berbagai penyakit, termasuk
-          stunting yang disebabkan oleh infeksi berulang akibat lingkungan yang
-          kotor. Materi disampaikan dengan cara yang menarik dan mudah dipahami
-          oleh anak-anak, menggunakan alat peraga dan ilustrasi yang menarik
-          perhatian mereka.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Setelah sesi pemaparan, dilanjutkan dengan kegiatan &quot;Game
-          Memasukkan Sampah ke Tempat yang Sesuai&quot;. Dalam permainan ini,
-          anak-anak diajarkan untuk membedakan jenis-jenis sampah dan cara
-          memilahnya dengan benar. Mereka diberikan berbagai jenis sampah tiruan
-          dan diminta untuk memasukkannya ke tempat sampah yang sesuai, seperti
-          sampah organik, anorganik, dan bahan berbahaya. Kegiatan ini tidak
-          hanya mengajarkan pentingnya memilah sampah, tetapi juga melatih
-          mereka untuk bertanggung jawab terhadap lingkungan sejak dini.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Selanjutnya, anak-anak diajak bernyanyi bersama lagu tentang cara
-          mencuci tangan dengan sabun yang benar. Lagu ini dirancang untuk
-          membuat proses belajar mencuci tangan menjadi menyenangkan dan mudah
-          diingat. Dengan iringan musik dan gerakan tangan, anak-anak dengan
-          antusias mengikuti setiap langkah mencuci tangan yang baik dan benar.
-          Lagu ini bertujuan untuk memastikan anak-anak memahami pentingnya
-          mencuci tangan, terutama sebelum makan dan setelah bermain, sebagai
-          langkah sederhana namun efektif dalam mencegah penyebaran penyakit.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Sebagai penutup kegiatan, anak-anak bersama tim KKN melakukan kegiatan
-          bersih-bersih masjid. Mereka membersihkan lantai, menyapu halaman, dan
-          merapikan area sekitar masjid. Aktivitas ini bertujuan untuk
-          mempraktikkan langsung apa yang telah mereka pelajari tentang
-          pentingnya menjaga kebersihan lingkungan. Selain itu, kegiatan ini
-          juga mengajarkan nilai-nilai kebersamaan dan kerja sama dalam menjaga
-          kebersihan tempat ibadah yang juga merupakan tempat belajar dan
-          bermain mereka.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Melalui kegiatan ini, anak-anak TPA di desa mendapatkan pengetahuan
-          dan keterampilan penting tentang menjaga kebersihan lingkungan.
-          Diharapkan, mereka dapat menerapkan kebiasaan baik ini dalam kehidupan
-          sehari-hari dan menyebarkannya kepada keluarga serta teman-teman
-          mereka. Kegiatan ini juga menekankan pentingnya kolaborasi antara
-          berbagai pihak, termasuk masyarakat, sekolah, dan instansi kesehatan,
-          dalam menciptakan lingkungan yang bersih dan sehat untuk mencegah
-          stunting dan penyakit lainnya.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Tim KKN PPM UGM 2024 berharap kegiatan ini bisa memberikan dampak
-          positif jangka panjang bagi anak-anak dan komunitas di dusun tersebut.
-          Dengan edukasi yang berkelanjutan, generasi muda diharapkan tumbuh
-          dengan kesadaran tinggi akan pentingnya kebersihan lingkungan dan
-          kesehatan pribadi.
-        </Text>
+        <div className="space-y-4">
+          <ul className="list-disc list-inside text-lg ml-4">
+            <li>Sasaran: Bapak-Bapak Dusun Gerotan & Petani Lokal</li>
+            <li>Peserta: ± 30 orang</li>
+          </ul>
+
+          <p className="font-bold mt-1 mb-1">Latar Belakang</p>
+          <p className="text-lg indent-10">
+            Lahan pertanian Dusun Gerotan yang didominasi tanah masam akibat curah hujan tinggi dan ditemukan banyaknya limbah
+            organik pascapanen yang belum dikelola. Untuk menjawab hal ini, dilakukan edukasi penanganan pH tanah dan workshop
+            budidaya maggot BSF sebagai solusi limbah sekaligus dukungan bagi pertanian berkelanjutan.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Pelaksanaan Kegiatan</p>
+          <p className="text-lg indent-10">
+            Kegiatan ini diikuti oleh para petani lokal dan warga setempat, khususnya bapak-bapak Dusun Gerotan.
+            Peserta diberikan materi mengenai cara mengukur dan mengatur pH tanah, teknik pengapuran untuk menetralkan tanah masam,
+            serta praktik langsung pembuatan media budidaya maggot BSF.
+            Selain itu, dijelaskan pula manfaat maggot dalam mengolah limbah organik menjadi pakan bernilai ekonomi.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Dampak dan Manfaat</p>
+          <p className="text-lg indent-10">
+            Warga mulai memahami pentingnya menjaga pH tanah untuk produktivitas pertanian.
+            Pemanfaatan maggot BSF membuka wawasan baru dalam pengelolaan sampah organik menjadi pakan bernilai,
+            sekaligus mendorong praktik pertanian dan lingkungan yang lebih berkelanjutan.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Kesimpulan</p>
+          <p className="text-lg indent-10">
+            Edukasi ini memberikan bekal pengetahuan praktis bagi petani dalam menjaga kualitas tanah dan mengelola limbah organik.
+            Dengan penerapan teknologi sederhana seperti budidaya maggot BSF, masyarakat dapat mendukung pertanian berkelanjutan
+            sekaligus meningkatkan pendapatan dari hasil sampingan.
+          </p>
+        </div>
+
       </>
     ),
   },
-  "retaining-wall": {
-    image: "/gerotan/retaining-wall.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Desain Retaining Wall untuk Longsor di Dusun Pucung ",
+  "pengenalan-web-skrining": {
+    image: "/gerotan/pengenalan-web-skrining.jpg",
+    location: "Balai Desa Kelurahan Ketundan",
+    title: "Sosialisasi dan Pelatihan Web Skrining Kesehatan Gigi dan Mulut",
     text: (
       <>
-        <Text size="lg" className="indent-10">
-          <br />
-          Pada tahun 2024, Tim KKN PPM UGM memiliki salah satu program kerja
-          yang penting, yaitu mendesain retaining wall untuk mencegah longsor di
-          Dusun Pucung. Longsor menjadi masalah yang serius di dusun ini.
-          Masalah longsor ini muncul terutama setiap musim hujan sehingga perlu
-          dibuatnya permasalahan atas longsor untuk melindungi masyarakat dan
-          sarana serta prasarana yang ada.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Pengamatan Kondisi Longsor di Pucung </H2>
-          Proses dimulai dengan pengamatan langsung terhadap kondisi longsor di
-          lokasi terdampak. Tim KKN bersama perangkat desa mengunjungi area yang
-          rawan longsor untuk mengidentifikasi tingkat kerusakan dan faktor
-          penyebabnya. Mereka mencatat data penting seperti kemiringan lereng,
-          jenis tanah, dan pola aliran air. Pengamatan ini dilakukan secara
-          teliti untuk mendapatkan gambaran lengkap mengenai situasi yang ada.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Pengambilan Sampel </H2>
-          Setelah pengamatan, langkah berikutnya adalah pengambilan sampel tanah
-          dari lokasi longsor. Tim KKN mengumpulkan sampel tanah untuk
-          dianalisis di laboratorium guna menentukan karakteristik fisik dan
-          mekaniknya. Analisis ini mencakup uji kekuatan tanah, porositas, dan
-          kadar air. Data ini sangat penting untuk mendesain retaining wall yang
-          sesuai dengan kondisi tanah di lokasi tersebut.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Penghitungan dan Konsep Retaining Wall </H2>
-          Berdasarkan hasil pengamatan dan analisis sampel tanah, tim KKN mulai
-          merancang konsep retaining wall. Mereka melakukan perhitungan teknis
-          untuk menentukan ukuran, bentuk, dan bahan yang akan digunakan.
-          Perhitungan ini melibatkan faktor keamanan, daya tahan, dan efisiensi
-          biaya. Tim KKN mempertimbangkan penggunaan bahan lokal yang mudah
-          didapatkan di sekitar dusun untuk meminimalisir biaya dan mempermudah
-          pelaksanaan.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Retaining wall yang dirancang harus mampu menahan tekanan tanah dan
-          air yang menyebabkan longsor. Selain itu, desainnya harus memungkinkan
-          aliran air yang baik untuk mencegah penumpukan air di belakang dinding
-          penahan. Tim KKN membuat beberapa sketsa dan model desain untuk
-          dipresentasikan kepada perangkat desa dan warga setempat.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Penyerahan Desain dan Sosialisasi </H2>
-          Setelah konsep retaining wall selesai, tim KKN menyusun laporan
-          lengkap yang mencakup semua hasil pengamatan, analisis, dan desain
-          yang telah dibuat. Laporan ini diserahkan kepada kepala dusun beserta
-          perangkat desa dalam sebuah acara resmi. Tim KKN juga melakukan
-          sosialisasi kepada warga mengenai pentingnya retaining wall dan cara
-          perawatannya.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Proker ini tidak hanya membantu mencegah longsor, tetapi juga
-          memberdayakan masyarakat dalam menjaga lingkungan mereka. Dengan
-          adanya program ini, Dusun Pucung mendapatkan solusi teknis yang
-          praktis dan dapat segera diterapkan untuk meningkatkan keamanan dan
-          kesejahteraan warganya.
-        </Text>
+        <ul className="list-disc list-inside text-lg ml-4 mb-4">
+          <li>Sasaran: Kader dan Ibu PKK</li>
+          <li>Peserta: ± 20 orang</li>
+        </ul>
+        <p className="font-bold mt-1 mb-1">Latar Belakang</p>
+        <p className="text-lg indent-10 mb-4">
+          Kesehatan gigi dan mulut merupakan salah satu aspek kesehatan yang masih menjadi permasalahan di berbagai wilayah, termasuk Desa Ketundan. Minimnya pendataan yang terstruktur sering kali menjadi hambatan dalam upaya pencegahan dan penanganan masalah kesehatan gigi. Pemanfaatan teknologi, khususnya melalui web skrining, dapat menjadi solusi efektif untuk memantau dan mengontrol perkembangan kesehatan gigi dan mulut secara berkala.
+        </p>
+        <p className="font-bold mt-1 mb-1">Pelaksanaan Kegiatan</p>
+        <p className="text-lg indent-10 mb-4">
+          Kegiatan sosialisasi dan pelatihan ini dilaksanakan di Balai Desa Ketundan dengan sasaran utama kader kesehatan dan Ibu PKK. Peserta diberikan pemahaman mengenai pentingnya kesehatan gigi dan mulut, serta pelatihan penggunaan web skrining untuk melakukan pendataan secara mandiri dan terintegrasi.
+        </p>
+        <p className="font-bold mt-1 mb-1">Dampak dan Manfaat</p>
+        <p className="text-lg indent-10 mb-4">
+          Web skrining kesehatan gigi dan mulut memudahkan kader dan Ibu PKK dalam melakukan pendataan kesehatan warga secara cepat, tepat, dan berbasis teknologi. Data yang terkumpul dapat menjadi acuan dalam menentukan langkah pencegahan maupun penanganan masalah kesehatan gigi di masyarakat. Dengan penerapan ini, diharapkan kesehatan gigi dan mulut masyarakat Desa Ketundan dapat terpantau lebih baik, sehingga meningkatkan kualitas hidup warga secara keseluruhan.
+        </p>
+        <p className="font-bold mt-1 mb-1">Kesimpulan</p>
+        <p className="text-lg indent-10">
+          Pemanfaatan teknologi dalam skrining kesehatan gigi dan mulut merupakan langkah inovatif yang tidak hanya memudahkan pendataan, tetapi juga mendorong partisipasi masyarakat dalam menjaga kesehatan. Melalui kader dan Ibu PKK, program ini dapat diperluas dan diaplikasikan secara berkelanjutan di seluruh wilayah desa.
+        </p>
       </>
     ),
   },
-  "pembuatan-rab-retaining": {
-    image: "/gerotan/pembuatan-rab-retaining.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Pembuatan RAB Retaining Wall untuk Longsor",
+  "senam-kebugaran": {
+    image: "/gerotan/senam-kebugaran.jpg",
+    location: "Dusun Gerotan, Kelurahan Ketundan",
+    title: "Senam Kebugaran",
     text: (
       <>
         <Text size="lg" className="indent-10">
           <br />
           Pada KKN PPM UGM 2024, salah satu program kerja yang penting adalah
           pembuatan Rencana Anggaran Biaya (RAB) untuk pembangunan retaining
-          wall di Dusun Pucung. Retaining wall adalah konstruksi bangunan berupa
+          wall di Dusun Gerotan. Retaining wall adalah konstruksi bangunan berupa
           dinding yang digunakan untuk menstabilkan tanah miring agar tanah
           tidak bergeser atau longsor. Dusun ini mengalami masalah longsor yang
           sering terjadi setiap musim hujan sehingga diperlukan solusi teknis
@@ -497,7 +365,7 @@ export const dataArticleGerotan: DataArticleGerotan = {
         <br />
         <Text size="lg" className="indent-10">
           Dengan adanya RAB yang terperinci dan transparan, diharapkan
-          pembangunan retaining wall di Dusun Pucung dapat berjalan lancar dan
+          pembangunan retaining wall di Dusun Gerotan dapat berjalan lancar dan
           sesuai anggaran. Program ini tidak hanya memberikan solusi teknis
           untuk masalah longsor, tetapi juga meningkatkan partisipasi dan
           kesadaran masyarakat dalam pengelolaan proyek pembangunan di desa
@@ -506,289 +374,92 @@ export const dataArticleGerotan: DataArticleGerotan = {
       </>
     ),
   },
-  "pendampingan-hafalan": {
-    image: "/gerotan/pendampingan-hafalan.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Pengontrolan Bacaan dan Hafalan Al-Qur'an",
+  "edukasi-keuangan": {
+    image: "/gerotan/edukasi-keuangan.jpg",
+    location: "SMPN 3 Pakis",
+    title: "Edukasi Perencanaan Keuangan untuk SMP",
     text: (
       <>
-        <Text size="lg" className="indent-10">
-          <br />
-          Program KKN PPM UGM 2024 menghadirkan salah satu program kerja
-          unggulan, yaitu pengontrolan bacaan dan hafalan Al-Qur'an bagi
-          anak-anak di Taman Pendidikan Al-Qur'an (TPA). Program ini bertujuan
-          untuk meningkatkan kualitas bacaan dan hafalan Al-Qur'an serta
-          memotivasi anak-anak agar lebih semangat dalam mempelajari kitab suci
-          mereka.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Proses Pengajaran dan Pembimbingan </H2>
-          Kegiatan dimulai dengan pengajaran yang dilakukan secara berkala di
-          TPA. Para mahasiswa KKN bekerja sama dengan pengajar setempat untuk
-          memberikan materi pembelajaran yang terstruktur. Pengajaran dilakukan
-          dengan metode yang interaktif dan menarik, menggunakan alat peraga dan
-          media pembelajaran yang variatif agar anak-anak lebih mudah memahami
-          dan menghafal ayat-ayat Al-Qur'an.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Pengontrolan Bacaan </H2>
-          Tahap pertama dalam proses ini adalah pengontrolan bacaan. Mahasiswa
-          KKN memberikan bimbingan intensif untuk memastikan anak-anak membaca
-          Al-Qur'an dengan tajwid yang benar. Setiap anak dibimbing secara
-          individu untuk melafalkan ayat-ayat dengan tepat. Mahasiswa KKN
-          memeriksa dan memperbaiki kesalahan bacaan, memberikan contoh yang
-          benar, dan mengajarkan teknik-teknik membaca yang baik.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Pembimbingan Hafalan</H2>
-          Selain bacaan, hafalan Al-Qur'an juga menjadi fokus utama. Mahasiswa
-          KKN mengadakan sesi khusus untuk membimbing anak-anak dalam menghafal
-          ayat-ayat Al-Qur'an. Sesi ini dilakukan dengan metode mengulang-ulang
-          ayat yang dihafal, baik secara individu maupun kelompok. Anak-anak
-          diberi motivasi dan dukungan agar mereka lebih semangat dalam
-          menghafal. Setiap pekan, diadakan evaluasi hafalan untuk mengukur
-          perkembangan dan memberikan penghargaan bagi yang berhasil mencapai
-          target.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Evaluasi dan Monitoring </H2>
-          Untuk memastikan efektivitas program, dilakukan evaluasi rutin setiap
-          bulan. Mahasiswa KKN bersama pengajar TPA memonitor perkembangan
-          bacaan dan hafalan setiap anak. Hasil evaluasi ini digunakan untuk
-          memberikan feedback dan perbaikan pada metode pengajaran yang
-          digunakan. Selain itu, orang tua juga diajak berpartisipasi dengan
-          memberikan dukungan di rumah agar anak-anak lebih termotivasi.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          <H2>Hasil dan Manfaat </H2>
-          Program pengontrolan bacaan dan hafalan Al-Qur&lsquo;an ini memberikan
-          dampak positif yang signifikan. Anak-anak di TPA menunjukkan
-          peningkatan yang signifikan dalam kualitas bacaan dan hafalan mereka.
-          Mereka menjadi lebih percaya diri dalam membaca dan menghafal
-          Al-Qur&lsquo;an. Selain itu, program ini juga menguatkan ikatan antara
-          mahasiswa KKN dengan masyarakat setempat, serta memperkuat nilai-nilai
-          keagamaan dalam kehidupan sehari-hari. Dengan demikian, proker KKN PPM
-          UGM 2024 ini tidak hanya membantu meningkatkan kemampuan anak-anak
-          dalam membaca dan menghafal Al-Qur&lsquo;an, tetapi juga memberikan
-          kontribusi nyata dalam pembentukan generasi muda yang berakhlak mulia
-          dan berpengetahuan agama yang kuat.
-        </Text>
-        <br />
+        <div className="space-y-4">
+          <ul className="list-disc list-inside text-lg ml-4">
+            <li>Sasaran: Siswa SMP Kelas 8 A</li>
+            <li>Peserta: 38 orang</li>
+          </ul>
+
+          <p className="font-bold mt-1 mb-1">Latar Belakang</p>
+          <p className="text-lg indent-10">
+            Rendahnya literasi keuangan di kalangan anak usia remaja mendorong saya untuk mensosialisasi perencanaan keuangan
+            guna memberikan pemahaman dasar finansial meliputi skala prioritas metode 40:30:20:10 sekaligus membedakan kebutuhan
+            dengan keinginan. Selain itu, siswa juga diperkenalkan pada konsep dasar investasi dan pembiayaan beserta risikonya.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Pelaksanaan Kegiatan</p>
+          <p className="text-lg indent-10">
+            Kegiatan ini dilaksanakan dengan metode pembelajaran interaktif, menggunakan leaflet edukatif yang memuat materi
+            perencanaan keuangan, contoh penerapan metode 40:30:20:10, serta penjelasan perbedaan kebutuhan dan keinginan.
+            Siswa juga diajak mengenal konsep investasi sederhana dan jenis pembiayaan beserta risiko yang mungkin timbul.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Dampak dan Manfaat</p>
+          <p className="text-lg indent-10">
+            Membantu siswa memahami cara mengelola keuangan dengan cara yang menyenangkan melalui leaflet interaktif
+            dilengkapi dengan games seperti teka-teki silang dan find the words, membuat siswa lebih antusias dan mudah
+            menyerap informasi. Mereka pun mulai menunjukkan pemahaman lebih baik dalam membedakan prioritas serta menyikapi
+            uang dengan lebih bijak.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Kesimpulan</p>
+          <p className="text-lg indent-10">
+            Sosialisasi ini memberikan bekal awal bagi siswa untuk lebih cerdas dalam mengelola uang sejak usia dini.
+            Dengan pendekatan interaktif, siswa tidak hanya mendapatkan pengetahuan, tetapi juga motivasi untuk menerapkan
+            kebiasaan finansial yang sehat di kehidupan sehari-hari.
+          </p>
+        </div>
+
       </>
     ),
   },
-  "pendampingan-tpa": {
-    image: "/gerotan/pendampingan-tpa.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
+  "perizinan-mata-air": {
+    image: "/gerotan/perizinan-mata-air.jpg",
+    location: "Dusun Gerotan & Taman Nasional Gunung Merbabu",
     title:
-      "Program Kerja TPA Dusun Pucung Pendampingan Hafalan Quran Anak-anak TPA",
+      "Sosialisasi Perizinan Pemanfaatan Mata Air Warga Melalui Kolaborasi dengan Taman Nasional Gunung Merbabu",
     text: (
       <>
-        <Text size="lg" className="indent-10">
-          <br />
-          Tim Kuliah Kerja Nyata (KKN) PPM Universitas Gadjah Mada (UGM) 2024
-          periode 2 melaksanakan program kerja (proker) bertajuk
-          &quot;Pendampingan Hafalan Quran Anak-anak TPA&quot; di Dusun Pucung,
-          Desa Pogalan, Kecamatan Pakis, Kabupaten Magelang. Program ini
-          ditujukan untuk mendukung dan meningkatkan kualitas hafalan Al-Quran
-          anak-anak di Taman Pendidikan Al-Quran (TPA) setempat.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Kegiatan ini diawali dengan pemetaan dan identifikasi kebutuhan
-          anak-anak TPA dalam hal hafalan Al-Quran. Tim KKN berkoordinasi dengan
-          pengurus TPA untuk menentukan jadwal dan materi hafalan yang sesuai
-          dengan kemampuan anak-anak. Program ini bertujuan untuk membimbing
-          anak-anak dalam menghafal Al-Quran dengan metode yang efektif dan
-          menyenangkan.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Pada hari pertama kegiatan, tim KKN mengadakan sesi perkenalan dan
-          orientasi. Anak-anak dikenalkan dengan berbagai metode hafalan yang
-          dirancang untuk mempermudah mereka dalam mengingat ayat-ayat Al-Quran.
-          Tim juga mengadakan sesi motivasi untuk membangkitkan semangat
-          anak-anak dalam proses hafalan. Selama kegiatan, tim KKN
-          mengaplikasikan pendekatan belajar yang interaktif, seperti permainan
-          hafalan dan diskusi kelompok, untuk membuat proses belajar lebih
-          menarik.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Selanjutnya, tim melakukan pendampingan secara rutin, dengan
-          mengadakan sesi bimbingan hafalan setiap minggu. Setiap anak diberikan
-          perhatian khusus untuk memastikan mereka memahami dan menghafal dengan
-          baik. Tim juga menyediakan materi hafalan tambahan dan alat bantu
-          belajar yang dibutuhkan, seperti kartu ayat dan rekaman audio.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Program ini juga melibatkan orang tua dalam proses hafalan. Tim KKN
-          mengadakan pelatihan dan penyuluhan tentang cara mendukung anak-anak
-          dalam belajar Al-Quran di rumah kepada orang tua. Keterlibatan orang
-          tua dianggap penting untuk memastikan konsistensi dan keberhasilan
-          hafalan.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Dengan adanya program pendampingan hafalan Quran ini, diharapkan
-          anak-anak TPA di Dusun Pucung dapat meningkatkan kemampuan hafalan
-          mereka serta menumbuhkan kecintaan dan kedisiplinan dalam mempelajari
-          Al-Quran. Program ini juga bertujuan untuk memperkuat peran TPA
-          sebagai lembaga pendidikan agama di masyarakat serta memotivasi
-          anak-anak untuk terus belajar dan mengamalkan ajaran Al-Quran.
-        </Text>
-        <br />
-      </>
-    ),
-  },
-  posyandu: {
-    image: "/gerotan/posyandu.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Membantu Kegiatan Posyandu",
-    text: (
-      <>
-        <Text size="lg" className="indent-10">
-          <br />
-          KKN PPM UGM 2024 mengusung program kerja yang berfokus pada membantu
-          kegiatan posyandu di desa mitra. Program ini bertujuan untuk
-          meningkatkan kualitas layanan kesehatan ibu dan anak, khususnya
-          balita, melalui kegiatan posyandu yang rutin diadakan setiap bulan.
-        </Text>
-        <br />
-        <H2>Pelaksanaan Posyandu Anak 0-5 Tahun</H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Pelaksanaan kegiatan dimulai dengan persiapan bersama kader posyandu
-          setempat. Mahasiswa KKN membantu dalam menyiapkan peralatan yang
-          dibutuhkan, seperti timbangan, alat ukur tinggi badan, dan buku
-          pencatatan kesehatan. Kegiatan posyandu diawali dengan pendaftaran
-          balita yang datang bersama orang tua mereka. Mahasiswa KKN membantu
-          mencatat data-data penting seperti nama, usia, berat badan, dan tinggi
-          badan anak.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Setelah pendaftaran, anak-anak diarahkan ke area pemeriksaan.
-          Mahasiswa KKN bekerja sama dengan kader posyandu untuk menimbang berat
-          badan dan mengukur tinggi badan balita. Data yang diperoleh kemudian
-          dicatat dalam buku kesehatan masing-masing anak. Mahasiswa juga
-          memberikan penjelasan singkat kepada orang tua mengenai hasil
-          pemeriksaan dan pentingnya pemantauan pertumbuhan anak secara rutin.
-        </Text>
-        <br />
-        <H2>Pemberian Imunisasi dan Suplemen Gizi</H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Salah satu kegiatan penting dalam posyandu adalah pemberian imunisasi
-          dan suplemen gizi. Mahasiswa KKN membantu petugas kesehatan dalam
-          mempersiapkan vaksin dan suplemen yang akan diberikan. Anak-anak yang
-          telah terdaftar dalam program imunisasi menerima vaksin sesuai jadwal
-          yang telah ditentukan. Selain itu, diberikan juga suplemen gizi
-          seperti vitamin A untuk mendukung kesehatan dan pertumbuhan anak.
-        </Text>
-        <br />
-        <H2>Edukasi Kesehatan</H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Setelah semua anak selesai diperiksa, kegiatan posyandu diakhiri
-          dengan sesi edukasi kesehatan. Mahasiswa KKN memberikan penyuluhan
-          kepada para orang tua mengenai pentingnya gizi seimbang, ASI
-          eksklusif, dan kebersihan lingkungan untuk mencegah penyakit. Edukasi
-          dilakukan dengan metode interaktif, menggunakan media gambar dan alat
-          peraga yang menarik agar mudah dipahami.
-        </Text>
-        <br />
-        <H2>Hasil dan Manfaat</H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Program membantu kegiatan posyandu ini memberikan manfaat yang
-          signifikan bagi masyarakat desa. Pelaksanaan posyandu menjadi lebih
-          tertib dan efisien, serta tercapainya tujuan peningkatan kesehatan ibu
-          dan anak. Para orang tua merasa lebih sadar akan pentingnya kesehatan
-          anak dan berkomitmen untuk rutin mengikuti kegiatan posyandu. Selain
-          itu, mahasiswa KKN juga mendapatkan pengalaman berharga dalam
-          berinteraksi dengan masyarakat dan memahami dinamika kesehatan di
-          desa.
-        </Text>
-        <Text size="lg" className="indent-10">
-          Dengan demikian, proker KKN PPM UGM 2024 ini berhasil memperkuat
-          layanan kesehatan dasar dan mendukung program pemerintah dalam
-          meningkatkan kualitas kesehatan masyarakat di desa mitra.
-        </Text>
-      </>
-    ),
-  },
-  "pencegahan-stunting": {
-    image: "/gerotan/pencegahan-stunting.jpg",
-    location: "Dusun Pucung, Kelurahan Pogalan",
-    title: "Sosialisasi Cegah Stunting ",
-    text: (
-      <>
-        <Text size="lg" className="indent-10">
-          <br />
-          KKN PPM UGM 2024 membawa program kerja inovatif, yaitu sosialisasi
-          pencegahan stunting di desa mitra. Program ini berfokus pada
-          peningkatan pengetahuan masyarakat tentang pentingnya gizi seimbang
-          dan pemanfaatan jamu temulawak untuk meningkatkan nafsu makan
-          anak-anak, sebagai salah satu cara mencegah stunting.
-        </Text>
-        <br />
-        <H2>Pelaksanaan Posyandu </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Proses sosialisasi dimulai dengan pelaksanaan posyandu rutin.
-          Mahasiswa KKN berkolaborasi dengan kader posyandu setempat untuk
-          memastikan semua anak balita mendapatkan pelayanan kesehatan yang
-          optimal. Selama posyandu, mahasiswa KKN mengukur berat dan tinggi
-          badan anak-anak untuk memantau pertumbuhan mereka. Selain itu,
-          diberikan juga edukasi kepada ibu-ibu mengenai pentingnya ASI
-          eksklusif dan pemberian makanan pendamping ASI yang bergizi.
-        </Text>
-        <br />
-        <H2>Sosialisasi Jamu Temulawak </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Setelah kegiatan posyandu, mahasiswa KKN mengadakan sosialisasi
-          mengenai manfaat jamu temulawak dalam mencegah stunting. Jamu
-          temulawak dikenal memiliki khasiat meningkatkan nafsu makan dan
-          membantu penyerapan nutrisi dalam tubuh anak-anak. Dalam sesi ini,
-          mahasiswa KKN menunjukkan cara pembuatan jamu temulawak yang sederhana
-          dan aman dikonsumsi oleh anak-anak.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Para ibu diberikan resep dan cara mengolah temulawak menjadi jamu yang
-          menarik bagi anak-anak. Selain itu, dijelaskan pula manfaat lain dari
-          temulawak seperti meningkatkan daya tahan tubuh dan membantu
-          pencernaan. Dengan peningkatan nafsu makan, diharapkan anak-anak
-          mendapatkan asupan gizi yang lebih baik sehingga pertumbuhan mereka
-          menjadi optimal.
-        </Text>
-        <br />
-        <H2>Hasil dan Manfaat </H2>
-        <br />
-        <Text size="lg" className="indent-10">
-          Program sosialisasi cegah stunting ini mendapat respons positif dari
-          masyarakat. Para ibu mulai rutin memberikan jamu temulawak kepada
-          anak-anak mereka. Hasilnya, terlihat peningkatan nafsu makan dan berat
-          badan pada anak-anak yang sebelumnya mengalami kesulitan makan.
-        </Text>
-        <br />
-        <Text size="lg" className="indent-10">
-          Melalui program ini, mahasiswa KKN tidak hanya berhasil meningkatkan
-          pengetahuan masyarakat mengenai stunting, tetapi juga memperkenalkan
-          solusi lokal yang efektif. Kerjasama antara mahasiswa, kader posyandu,
-          dan masyarakat desa menjadi kunci keberhasilan program ini. Proker KKN
-          PPM UGM 2024 ini menunjukkan bahwa pendekatan berbasis komunitas dapat
-          memberikan dampak positif yang nyata dalam upaya pencegahan stunting
-          di desa mitra.
-        </Text>
+        <div className="space-y-4">
+          <ul className="list-disc list-inside text-lg ml-4">
+            <li>Sasaran: Warga Dusun Gerotan</li>
+            <li>Peserta: ± 5 orang</li>
+          </ul>
+
+          <p className="font-bold mt-1 mb-1">Latar Belakang</p>
+          <p className="text-lg indent-10">
+            Warga Dusun Gerotan menggunakan sumber mata air di kawasan Taman Nasional Gunung Merbabu untuk kebutuhan sehari-hari
+            dan pertanian. Namun, belum ada izin resmi yang dimiliki warga untuk pemanfaatan tersebut.
+            Kegiatan ini dilakukan untuk membantu warga memahami prosedur perizinan dan mulai mengurusnya secara legal.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Pelaksanaan Kegiatan</p>
+          <p className="text-lg indent-10">
+            Pendampingan dilakukan secara langsung dengan memberikan penjelasan mengenai regulasi penggunaan sumber daya alam
+            di kawasan taman nasional, dokumen yang dibutuhkan, serta tahapan proses perizinan.
+            Warga juga diarahkan untuk menjalin komunikasi dengan pihak Balai Taman Nasional Gunung Merbabu sebagai langkah awal.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Dampak dan Manfaat</p>
+          <p className="text-lg indent-10">
+            Warga lebih memahami aturan terkait pemanfaatan sumber mata air di kawasan taman nasional dan mulai terhubung
+            dengan pihak balai. Hal ini menjadi langkah awal menuju pemanfaatan air yang legal, aman, dan berkelanjutan
+            untuk kebutuhan rumah tangga maupun pertanian.
+          </p>
+
+          <p className="font-bold mt-1 mb-1">Kesimpulan</p>
+          <p className="text-lg indent-10">
+            Pendampingan ini diharapkan dapat mempercepat proses perizinan dan memastikan pemanfaatan sumber mata air dilakukan
+            sesuai ketentuan hukum, sehingga keberlanjutan sumber daya tetap terjaga.
+          </p>
+        </div>
+
       </>
     ),
   },
